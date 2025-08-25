@@ -21,19 +21,19 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-50">
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Navigate to="/dashboard" replace />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/analytics" element={<Analytics />} />
-            <Route path="/campaigns" element={<Campaigns />} />
-            <Route path="/content" element={<Content />} />
-            <Route path="/accounts" element={<Accounts />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/reports" element={<Reports />} />
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Navigate to="/dashboard" replace />} />
+            <Route path="dashboard" element={<Dashboard />} />
+            <Route path="analytics" element={<Analytics />} />
+            <Route path="campaigns" element={<Campaigns />} />
+            <Route path="content" element={<Content />} />
+            <Route path="accounts" element={<Accounts />} />
+            <Route path="settings" element={<Settings />} />
+            <Route path="reports" element={<Reports />} />
             <Route path="*" element={<Error message="Page not found" />} />
-          </Routes>
-        </Layout>
+          </Route>
+        </Routes>
         
         <ToastContainer
           position="top-right"

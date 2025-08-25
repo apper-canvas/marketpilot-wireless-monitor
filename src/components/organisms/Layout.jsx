@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
+import ApperIcon from "@/components/ApperIcon";
 import Sidebar from "@/components/organisms/Sidebar";
 import MobileSidebar from "@/components/organisms/MobileSidebar";
 import DashboardHeader from "@/components/organisms/DashboardHeader";
-import ApperIcon from "@/components/ApperIcon";
 
 const Layout = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
@@ -65,10 +65,9 @@ const Layout = () => {
         <div className="hidden lg:block">
           <DashboardHeader />
         </div>
-
-        {/* Page Content */}
+{/* Page Content */}
         <main className="p-6">
-          <Outlet />
+<Outlet />
         </main>
       </div>
     </div>
