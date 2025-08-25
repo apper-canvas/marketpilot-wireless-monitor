@@ -3,10 +3,12 @@ import KPIGrid from "@/components/organisms/KPIGrid";
 import AlertCenter from "@/components/organisms/AlertCenter";
 import CampaignOverview from "@/components/organisms/CampaignOverview";
 import AIContentGenerator from "@/components/organisms/AIContentGenerator";
-
+import AIInsightsModal from "@/components/organisms/AIInsightsModal";
+import Button from "@/components/atoms/Button";
 const Dashboard = () => {
   const [selectedAccount, setSelectedAccount] = useState("");
   const [dateRange, setDateRange] = useState("7d");
+  const [showInsightsModal, setShowInsightsModal] = useState(false);
 
   return (
     <div className="space-y-8">
@@ -21,7 +23,15 @@ const Dashboard = () => {
           </p>
         </div>
         
-        <div className="flex items-center space-x-3">
+<div className="flex items-center space-x-3">
+          <Button
+            variant="accent"
+            icon="Brain"
+            onClick={() => setShowInsightsModal(true)}
+            className="shadow-lg hover:shadow-xl"
+          >
+            View AI Insights
+          </Button>
           <select
             value={dateRange}
             onChange={(e) => setDateRange(e.target.value)}
@@ -142,9 +152,14 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-      </div>
+</div>
+
+      {/* AI Insights Modal */}
+      <AIInsightsModal 
+        isOpen={showInsightsModal}
+        onClose={() => setShowInsightsModal(false)}
+      />
     </div>
   );
 };
-
 export default Dashboard;
