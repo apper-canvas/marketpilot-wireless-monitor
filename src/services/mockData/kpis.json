@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "name": "Total Revenue",
+    "value": 127500,
+    "type": "currency",
+    "changePercent": 12.5,
+    "trend": "up",
+    "icon": "DollarSign",
+    "category": "revenue"
+  },
+  {
+    "Id": 2,
+    "name": "Total Impressions",
+    "value": 2450000,
+    "type": "number",
+    "changePercent": -3.2,
+    "trend": "down",
+    "icon": "Eye",
+    "category": "reach"
+  },
+  {
+    "Id": 3,
+    "name": "Click-Through Rate",
+    "value": 3.8,
+    "type": "percentage",
+    "changePercent": 8.7,
+    "trend": "up",
+    "icon": "MousePointer",
+    "category": "engagement"
+  },
+  {
+    "Id": 4,
+    "name": "Conversion Rate",
+    "value": 4.2,
+    "type": "percentage",
+    "changePercent": 15.3,
+    "trend": "up",
+    "icon": "Target",
+    "category": "conversion"
+  },
+  {
+    "Id": 5,
+    "name": "Cost Per Click",
+    "value": 2.45,
+    "type": "currency",
+    "changePercent": -5.8,
+    "trend": "down",
+    "icon": "CreditCard",
+    "category": "cost"
+  },
+  {
+    "Id": 6,
+    "name": "Return on Ad Spend",
+    "value": 425,
+    "type": "percentage",
+    "changePercent": 22.1,
+    "trend": "up",
+    "icon": "TrendingUp",
+    "category": "roi"
+  },
+  {
+    "Id": 7,
+    "name": "Total Clicks",
+    "value": 64750,
+    "type": "number",
+    "changePercent": 7.9,
+    "trend": "up",
+    "icon": "MousePointer",
+    "category": "engagement"
+  },
+  {
+    "Id": 8,
+    "name": "Cost Per Acquisition",
+    "value": 58.30,
+    "type": "currency",
+    "changePercent": -12.4,
+    "trend": "down",
+    "icon": "Users",
+    "category": "cost"
+  }
+]

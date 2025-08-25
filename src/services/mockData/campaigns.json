@@ -1,0 +1,146 @@
+[
+  {
+    "Id": 1,
+    "accountId": "google_ads_1",
+    "name": "Black Friday Holiday Sale 2024",
+    "status": "active",
+    "budget": 15000,
+    "spend": 12750,
+    "startDate": "2024-11-01",
+    "endDate": "2024-12-15",
+    "metrics": {
+      "impressions": 450000,
+      "clicks": 12500,
+      "ctr": 2.8,
+      "conversions": 287,
+      "cpc": 1.02,
+      "roas": 4.2
+    }
+  },
+  {
+    "Id": 2,
+    "accountId": "meta_ads_1",
+    "name": "Winter Collection Launch",
+    "status": "active",
+    "budget": 8500,
+    "spend": 6200,
+    "startDate": "2024-11-15",
+    "endDate": "2024-12-31",
+    "metrics": {
+      "impressions": 220000,
+      "clicks": 8900,
+      "ctr": 4.0,
+      "conversions": 198,
+      "cpc": 0.70,
+      "roas": 3.8
+    }
+  },
+  {
+    "Id": 3,
+    "accountId": "linkedin_ads_1",
+    "name": "B2B Lead Generation Q4",
+    "status": "paused",
+    "budget": 12000,
+    "spend": 9800,
+    "startDate": "2024-10-01",
+    "endDate": "2024-12-31",
+    "metrics": {
+      "impressions": 85000,
+      "clicks": 2100,
+      "ctr": 2.5,
+      "conversions": 67,
+      "cpc": 4.67,
+      "roas": 2.9
+    }
+  },
+  {
+    "Id": 4,
+    "accountId": "google_ads_1",
+    "name": "Brand Awareness Campaign",
+    "status": "active",
+    "budget": 5000,
+    "spend": 3450,
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-30",
+    "metrics": {
+      "impressions": 680000,
+      "clicks": 15400,
+      "ctr": 2.3,
+      "conversions": 324,
+      "cpc": 0.22,
+      "roas": 5.1
+    }
+  },
+  {
+    "Id": 5,
+    "accountId": "meta_ads_1",
+    "name": "Retargeting Campaign - Abandoned Carts",
+    "status": "active",
+    "budget": 3200,
+    "spend": 2890,
+    "startDate": "2024-11-10",
+    "endDate": "2024-12-10",
+    "metrics": {
+      "impressions": 95000,
+      "clicks": 4200,
+      "ctr": 4.4,
+      "conversions": 156,
+      "cpc": 0.69,
+      "roas": 6.2
+    }
+  },
+  {
+    "Id": 6,
+    "accountId": "google_ads_1",
+    "name": "Local Services Promotion",
+    "status": "ended",
+    "budget": 2500,
+    "spend": 2500,
+    "startDate": "2024-10-01",
+    "endDate": "2024-10-31",
+    "metrics": {
+      "impressions": 125000,
+      "clicks": 3200,
+      "ctr": 2.6,
+      "conversions": 89,
+      "cpc": 0.78,
+      "roas": 3.4
+    }
+  },
+  {
+    "Id": 7,
+    "accountId": "linkedin_ads_1",
+    "name": "Webinar Registration Drive",
+    "status": "draft",
+    "budget": 7500,
+    "spend": 0,
+    "startDate": "2024-12-01",
+    "endDate": "2024-12-15",
+    "metrics": {
+      "impressions": 0,
+      "clicks": 0,
+      "ctr": 0,
+      "conversions": 0,
+      "cpc": 0,
+      "roas": 0
+    }
+  },
+  {
+    "Id": 8,
+    "accountId": "meta_ads_1",
+    "name": "New Customer Acquisition",
+    "status": "active",
+    "budget": 18000,
+    "spend": 14200,
+    "startDate": "2024-11-01",
+    "endDate": "2024-12-31",
+    "metrics": {
+      "impressions": 780000,
+      "clicks": 23400,
+      "ctr": 3.0,
+      "conversions": 445,
+      "cpc": 0.61,
+      "roas": 4.7
+    }
+  }
+]

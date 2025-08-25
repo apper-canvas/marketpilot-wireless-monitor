@@ -1,0 +1,98 @@
+[
+  {
+    "Id": 1,
+    "type": "budget_exceeded",
+    "severity": "critical",
+    "metric": "campaign_budget",
+    "threshold": 15000,
+    "currentValue": 18750,
+    "timestamp": "2024-11-20T14:30:00Z",
+    "resolved": false,
+    "campaignId": 1,
+    "accountId": "google_ads_1"
+  },
+  {
+    "Id": 2,
+    "type": "traffic_drop",
+    "severity": "warning",
+    "metric": "impressions",
+    "threshold": 50000,
+    "currentValue": 32000,
+    "timestamp": "2024-11-20T09:15:00Z",
+    "resolved": false,
+    "campaignId": 2,
+    "accountId": "meta_ads_1"
+  },
+  {
+    "Id": 3,
+    "type": "cost_spike",
+    "severity": "warning",
+    "metric": "cpc",
+    "threshold": 2.50,
+    "currentValue": 3.85,
+    "timestamp": "2024-11-19T16:45:00Z",
+    "resolved": true,
+    "campaignId": 3,
+    "accountId": "linkedin_ads_1"
+  },
+  {
+    "Id": 4,
+    "type": "conversion_drop",
+    "severity": "critical",
+    "metric": "conversion_rate",
+    "threshold": 3.5,
+    "currentValue": 1.8,
+    "timestamp": "2024-11-19T12:20:00Z",
+    "resolved": false,
+    "campaignId": 4,
+    "accountId": "google_ads_1"
+  },
+  {
+    "Id": 5,
+    "type": "quality_score_low",
+    "severity": "info",
+    "metric": "quality_score",
+    "threshold": 7,
+    "currentValue": 5,
+    "timestamp": "2024-11-18T10:30:00Z",
+    "resolved": false,
+    "campaignId": 5,
+    "accountId": "meta_ads_1"
+  },
+  {
+    "Id": 6,
+    "type": "impression_share_low",
+    "severity": "info",
+    "metric": "impression_share",
+    "threshold": 80,
+    "currentValue": 65,
+    "timestamp": "2024-11-18T08:45:00Z",
+    "resolved": true,
+    "campaignId": 6,
+    "accountId": "google_ads_1"
+  },
+  {
+    "Id": 7,
+    "type": "ad_approval_pending",
+    "severity": "info",
+    "metric": "ad_status",
+    "threshold": 0,
+    "currentValue": 3,
+    "timestamp": "2024-11-17T15:00:00Z",
+    "resolved": false,
+    "campaignId": 7,
+    "accountId": "linkedin_ads_1"
+  },
+  {
+    "Id": 8,
+    "type": "frequency_high",
+    "severity": "warning",
+    "metric": "frequency",
+    "threshold": 3.0,
+    "currentValue": 4.8,
+    "timestamp": "2024-11-17T11:20:00Z",
+    "resolved": false,
+    "campaignId": 8,
+    "accountId": "meta_ads_1"
+  }
+]

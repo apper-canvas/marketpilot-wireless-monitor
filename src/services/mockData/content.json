@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "type": "ad_copy",
+    "brief": "Promote our new AI-powered marketing automation platform for small businesses",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "Transform your marketing with our AI-powered automation platform. Designed specifically for small businesses, our solution streamlines campaigns, personalizes customer interactions, and delivers measurable results. Start your free trial today and experience the future of marketing automation."
+      },
+      {
+        "content": "Discover the power of intelligent marketing automation. Our AI-driven platform helps small businesses achieve professional-level marketing results without the complexity. Join thousands of successful businesses who trust our proven technology to grow their revenue."
+      },
+      {
+        "content": "Revolutionize your marketing strategy with cutting-edge AI automation. Built for small business success, our platform combines advanced technology with user-friendly design to deliver exceptional ROI. Experience the difference intelligent automation makes."
+      }
+    ],
+    "selectedVersion": 0,
+    "createdAt": "2024-11-20T10:30:00Z",
+    "status": "approved"
+  },
+  {
+    "Id": 2,
+    "type": "social_post",
+    "brief": "Announce our upcoming Black Friday sale with 40% off all premium plans",
+    "tone": "casual",
+    "generatedContent": [
+      {
+        "content": "🚨 BLACK FRIDAY ALERT! 🚨\n\nGuess what's coming early this year? Our BIGGEST sale of 2024! 🎉\n\n40% OFF all premium plans - that's HUGE savings on the marketing tools you've been wanting to try! \n\nMark your calendars, set those reminders, and get ready to level up your marketing game for less! 💪\n\n#BlackFriday #MarketingTools #BigSavings #LimitedTime"
+      }
+    ],
+    "selectedVersion": 0,
+    "createdAt": "2024-11-19T15:20:00Z",
+    "status": "draft"
+  },
+  {
+    "Id": 3,
+    "type": "email",
+    "brief": "Welcome email for new users signing up for our marketing platform trial",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "Subject: Welcome to MarketPilot AI - Your Marketing Journey Starts Now!\n\nDear [Name],\n\nWelcome to MarketPilot AI! We're thrilled to have you join our community of innovative marketers who are transforming their businesses with the power of AI.\n\nYour free trial gives you access to:\n✓ AI-powered content generation\n✓ Advanced campaign analytics\n✓ Smart audience insights\n✓ Automated optimization tools\n\nTo get started, simply log in to your dashboard and explore our guided setup process. Our team has prepared helpful resources to ensure you maximize your trial experience.\n\nIf you have any questions, our support team is here to help at support@marketpilot.ai\n\nHere's to your marketing success!\n\nThe MarketPilot AI Team"
+      }
+    ],
+    "selectedVersion": 0,
+    "createdAt": "2024-11-18T14:45:00Z",
+    "status": "published"
+  },
+  {
+    "Id": 4,
+    "type": "landing_page",
+    "brief": "Create compelling copy for our enterprise solution landing page targeting Fortune 500 companies",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "# Enterprise Marketing Intelligence\n\n## Designed for Global Leaders\n\nFortune 500 companies trust MarketPilot AI to orchestrate complex, multi-channel marketing operations at scale. Our enterprise-grade platform delivers the advanced capabilities, security, and support that large organizations demand.\n\n### Why Industry Leaders Choose Us\n\n**Enterprise-Scale Performance**\nHandle millions of data points, thousands of campaigns, and complex organizational structures with ease.\n\n**Advanced Security & Compliance**\nSOC 2 Type II certified with enterprise-grade security measures and compliance support for global regulations.\n\n**Dedicated Success Management**\nPersonalized support from our enterprise team, including strategic consultation and custom implementation.\n\n**Custom AI Models**\nTailored machine learning algorithms trained on your specific industry data and business objectives.\n\nReady to transform your marketing operations? Let's discuss how MarketPilot AI can drive growth for your organization."
+      }
+    ],
+    "selectedVersion": 0,
+    "createdAt": "2024-11-17T11:15:00Z",
+    "status": "draft"
+  },
+  {
+    "Id": 5,
+    "type": "blog_post",
+    "brief": "Write about the future of AI in digital marketing and emerging trends for 2025",
+    "tone": "inspirational",
+    "generatedContent": [
+      {
+        "content": "# The AI Marketing Revolution: What 2025 Holds for Digital Marketers\n\nWe stand at the precipice of a marketing renaissance. As we look toward 2025, artificial intelligence isn't just changing the game – it's creating entirely new playing fields where creativity meets intelligence, and intuition merges with data-driven precision.\n\n## The Dawn of Hyper-Personalization\n\nImagine marketing messages that adapt in real-time, not just to demographics, but to emotions, context, and individual life moments. This isn't science fiction – it's the near future of AI-powered marketing.\n\n## Predictive Customer Journey Mapping\n\nBy 2025, AI will anticipate customer needs before customers themselves recognize them. Marketing will shift from reactive to proactive, creating seamless experiences that feel almost magical in their relevance.\n\n## The Rise of Conversational Commerce\n\nAI assistants will become sophisticated brand ambassadors, capable of nuanced conversations that guide customers through complex purchase decisions with human-like empathy and infinite patience.\n\n## Ethical AI: The Competitive Advantage\n\nThe brands that thrive will be those that harness AI's power while maintaining transparency, privacy, and authentic human connection.\n\nThe future belongs to marketers who embrace AI not as a replacement for human creativity, but as its ultimate amplifier."
+      }
+    ],
+    "selectedVersion": 0,
+    "createdAt": "2024-11-16T09:30:00Z",
+    "status": "approved"
+  },
+  {
+    "Id": 6,
+    "type": "ad_copy",
+    "brief": "Create urgency-driven copy for our limited-time Christmas promotion",
+    "tone": "urgent",
+    "generatedContent": [
+      {
+        "content": "⏰ FINAL HOURS: Christmas Sale Ends Tonight at Midnight!\n\nDon't let this opportunity slip away! Our exclusive Christmas promotion gives you 50% OFF premium features – but only for the next few hours.\n\n🎁 What you get:\n✅ Full platform access\n✅ AI content generation\n✅ Advanced analytics\n✅ Priority support\n\nOver 10,000 marketers have already claimed this deal. Will you be next?\n\n⚡ HURRY – This price disappears at midnight!\n\nClaim Your 50% Discount Now →"
+      }
+    ],
+    "selectedVersion": 0,
+    "createdAt": "2024-11-15T20:45:00Z",
+    "status": "draft"
+  }
+]
