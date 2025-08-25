@@ -44,7 +44,7 @@ const AlertCenter = ({ limit = null, showHeader = true }) => {
     }
   };
 
-  const handleDismiss = async (alertId) => {
+const handleDismiss = async (alertId) => {
     try {
       await alertService.delete(alertId);
       setAlerts(alerts.filter(alert => alert.Id !== alertId));
@@ -52,8 +52,7 @@ const AlertCenter = ({ limit = null, showHeader = true }) => {
     } catch (err) {
       toast.error("Failed to dismiss alert");
     }
-};
-
+  };
   const unreadAlerts = alerts.filter(alert => !alert.resolved);
   const criticalAlerts = alerts.filter(alert => alert.severity === "critical");
   const competitorAlerts = alerts.filter(alert => alert.type?.includes("competitor"));
