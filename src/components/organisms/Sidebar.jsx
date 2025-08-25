@@ -49,13 +49,19 @@ const navigation = [
       icon: "Users",
       description: "Account management"
     },
-    {
-      name: "Reports",
-      path: "/reports",
-      icon: "BarChart3",
-      description: "Analytics reports"
-    }
-  ];
+{
+name: "Reports",
+path: "/reports",
+icon: "BarChart3",
+description: "Analytics reports"
+},
+{
+name: "A/B Testing",
+path: "/ab-testing",
+icon: "TestTube",
+description: "Experiment & optimize"
+}
+];
 
   const secondaryItems = [
     {

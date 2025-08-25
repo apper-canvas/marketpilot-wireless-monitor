@@ -15,6 +15,7 @@ import SEOPanel from '@/components/pages/SEOPanel';
 import Accounts from '@/components/pages/Accounts';
 import Settings from '@/components/pages/Settings';
 import Reports from '@/components/pages/Reports';
+import ABTesting from '@/components/pages/ABTesting';
 
 // UI Components
 import Error from '@/components/ui/Error';
@@ -33,9 +34,10 @@ function App() {
             <Route path="creative-studio" element={<CreativeStudio />} />
             <Route path="seo-panel" element={<SEOPanel />} />
             <Route path="accounts" element={<Accounts />} />
-            <Route path="settings" element={<Settings />} />
-            <Route path="reports" element={<Reports />} />
-            <Route path="*" element={<Error message="Page not found" />} />
+<Route path="settings" element={<Settings />} />
+<Route path="reports" element={<Reports />} />
+<Route path="ab-testing" element={<ABTesting />} />
+<Route path="*" element={<Error message="Page not found" />} />
           </Route>
         </Routes>
         
