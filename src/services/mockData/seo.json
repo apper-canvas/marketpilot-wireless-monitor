@@ -1,0 +1,216 @@
+{
+  "keywordClusters": [
+    {
+      "Id": 1,
+      "name": "Digital Marketing Strategy",
+      "keywords": [
+        {"term": "digital marketing strategy", "volume": 8100, "difficulty": 73, "cpc": 4.25},
+        {"term": "digital marketing plan", "volume": 2900, "difficulty": 65, "cpc": 3.80},
+        {"term": "online marketing strategy", "volume": 1600, "difficulty": 62, "cpc": 3.50},
+        {"term": "digital marketing tactics", "volume": 1300, "difficulty": 58, "cpc": 3.20},
+        {"term": "digital marketing framework", "volume": 880, "difficulty": 55, "cpc": 2.90}
+      ],
+      "totalVolume": 14780,
+      "avgDifficulty": 63,
+      "competition": "High",
+      "opportunity": 78
+    },
+    {
+      "Id": 2,
+      "name": "SEO Optimization",
+      "keywords": [
+        {"term": "SEO optimization", "volume": 12100, "difficulty": 68, "cpc": 5.10},
+        {"term": "search engine optimization", "volume": 27100, "difficulty": 75, "cpc": 6.20},
+        {"term": "SEO best practices", "volume": 3600, "difficulty": 55, "cpc": 4.30},
+        {"term": "on page SEO", "volume": 8100, "difficulty": 62, "cpc": 4.80},
+        {"term": "technical SEO", "volume": 4400, "difficulty": 70, "cpc": 5.50}
+      ],
+      "totalVolume": 55300,
+      "avgDifficulty": 66,
+      "competition": "Very High",
+      "opportunity": 92
+    },
+    {
+      "Id": 3,
+      "name": "Content Marketing",
+      "keywords": [
+        {"term": "content marketing", "volume": 18100, "difficulty": 72, "cpc": 4.90},
+        {"term": "content marketing strategy", "volume": 6600, "difficulty": 68, "cpc": 4.50},
+        {"term": "content creation", "volume": 5400, "difficulty": 45, "cpc": 3.20},
+        {"term": "blog content strategy", "volume": 1900, "difficulty": 52, "cpc": 3.80},
+        {"term": "content marketing tips", "volume": 2400, "difficulty": 48, "cpc": 3.40}
+      ],
+      "totalVolume": 34400,
+      "avgDifficulty": 57,
+      "competition": "High",
+      "opportunity": 85
+    },
+    {
+      "Id": 4,
+      "name": "Social Media Marketing",
+      "keywords": [
+        {"term": "social media marketing", "volume": 22200, "difficulty": 74, "cpc": 3.60},
+        {"term": "social media strategy", "volume": 9900, "difficulty": 70, "cpc": 3.80},
+        {"term": "social media advertising", "volume": 3600, "difficulty": 65, "cpc": 4.20},
+        {"term": "social media management", "volume": 8100, "difficulty": 58, "cpc": 3.40},
+        {"term": "social media marketing tips", "volume": 1800, "difficulty": 52, "cpc": 2.90}
+      ],
+      "totalVolume": 45600,
+      "avgDifficulty": 64,
+      "competition": "Very High",
+      "opportunity": 88
+    },
+    {
+      "Id": 5,
+      "name": "Email Marketing",
+      "keywords": [
+        {"term": "email marketing", "volume": 14800, "difficulty": 69, "cpc": 5.80},
+        {"term": "email marketing strategy", "volume": 2900, "difficulty": 62, "cpc": 5.20},
+        {"term": "email campaign", "volume": 6600, "difficulty": 55, "cpc": 4.60},
+        {"term": "email marketing best practices", "volume": 1600, "difficulty": 50, "cpc": 4.10},
+        {"term": "email automation", "volume": 4400, "difficulty": 58, "cpc": 6.20}
+      ],
+      "totalVolume": 30300,
+      "avgDifficulty": 59,
+      "competition": "High",
+      "opportunity": 76
+    },
+    {
+      "Id": 6,
+      "name": "PPC Advertising",
+      "keywords": [
+        {"term": "PPC advertising", "volume": 9900, "difficulty": 78, "cpc": 8.50},
+        {"term": "Google Ads", "volume": 40500, "difficulty": 82, "cpc": 12.40},
+        {"term": "pay per click", "volume": 8100, "difficulty": 75, "cpc": 7.80},
+        {"term": "PPC management", "volume": 3600, "difficulty": 70, "cpc": 9.20},
+        {"term": "Google Ads strategy", "volume": 2900, "difficulty": 68, "cpc": 8.90}
+      ],
+      "totalVolume": 65000,
+      "avgDifficulty": 75,
+      "competition": "Very High",
+      "opportunity": 95
+    },
+    {
+      "Id": 7,
+      "name": "Marketing Analytics",
+      "keywords": [
+        {"term": "marketing analytics", "volume": 8100, "difficulty": 65, "cpc": 6.30},
+        {"term": "Google Analytics", "volume": 40500, "difficulty": 70, "cpc": 4.80},
+        {"term": "marketing metrics", "volume": 2900, "difficulty": 55, "cpc": 5.20},
+        {"term": "marketing ROI", "volume": 3600, "difficulty": 58, "cpc": 6.80},
+        {"term": "marketing dashboard", "volume": 1900, "difficulty": 48, "cpc": 5.60}
+      ],
+      "totalVolume": 57000,
+      "avgDifficulty": 59,
+      "competition": "High",
+      "opportunity": 82
+    },
+    {
+      "Id": 8,
+      "name": "Local SEO",
+      "keywords": [
+        {"term": "local SEO", "volume": 12100, "difficulty": 62, "cpc": 7.20},
+        {"term": "local search optimization", "volume": 1900, "difficulty": 55, "cpc": 6.80},
+        {"term": "Google My Business", "volume": 18100, "difficulty": 58, "cpc": 4.50},
+        {"term": "local business marketing", "volume": 2400, "difficulty": 48, "cpc": 5.30},
+        {"term": "local citation building", "volume": 880, "difficulty": 45, "cpc": 6.20}
+      ],
+      "totalVolume": 35400,
+      "avgDifficulty": 54,
+      "competition": "Medium",
+      "opportunity": 72
+    }
+  ],
+  "contentSuggestions": [
+    {
+      "Id": 1,
+      "title": "Ultimate Digital Marketing Strategy Guide 2024",
+      "description": "Comprehensive guide covering all digital marketing channels with actionable strategies and real case studies.",
+      "contentType": "Guide",
+      "priority": "High",
+      "estimatedTraffic": "10K-15K",
+      "clusterId": 1
+    },
+    {
+      "Id": 2,
+      "title": "SEO Optimization Checklist: 50 Point Audit",
+      "description": "Complete SEO audit checklist covering technical, on-page, and off-page optimization factors.",
+      "contentType": "Checklist",
+      "priority": "High",
+      "estimatedTraffic": "8K-12K",
+      "clusterId": 2
+    },
+    {
+      "Id": 3,
+      "title": "Content Marketing ROI: How to Measure Success",
+      "description": "Detailed analysis of content marketing metrics and KPIs with practical measurement techniques.",
+      "contentType": "Blog Post",
+      "priority": "Medium",
+      "estimatedTraffic": "5K-8K",
+      "clusterId": 3
+    },
+    {
+      "Id": 4,
+      "title": "Social Media Marketing Calendar Template",
+      "description": "Ready-to-use social media calendar template with posting schedules and content ideas.",
+      "contentType": "Template",
+      "priority": "Medium",
+      "estimatedTraffic": "3K-6K",
+      "clusterId": 4
+    },
+    {
+      "Id": 5,
+      "title": "Email Marketing Automation Workflows",
+      "description": "Step-by-step guide to setting up effective email automation sequences for different industries.",
+      "contentType": "Tutorial",
+      "priority": "High",
+      "estimatedTraffic": "6K-10K",
+      "clusterId": 5
+    },
+    {
+      "Id": 6,
+      "title": "Google Ads Optimization: Advanced Techniques",
+      "description": "Advanced Google Ads optimization strategies for experienced marketers looking to improve ROI.",
+      "contentType": "Advanced Guide",
+      "priority": "High",
+      "estimatedTraffic": "7K-12K",
+      "clusterId": 6
+    },
+    {
+      "Id": 7,
+      "title": "Marketing Analytics Dashboard Setup",
+      "description": "Complete tutorial on building custom marketing dashboards using Google Analytics and Data Studio.",
+      "contentType": "Tutorial",
+      "priority": "Medium",
+      "estimatedTraffic": "4K-7K",
+      "clusterId": 7
+    },
+    {
+      "Id": 8,
+      "title": "Local SEO for Small Businesses: Complete Guide",
+      "description": "Beginner-friendly guide to local SEO optimization for small business owners and marketers.",
+      "contentType": "Beginner Guide",
+      "priority": "Medium",
+      "estimatedTraffic": "5K-9K",
+      "clusterId": 8
+    },
+    {
+      "Id": 9,
+      "title": "Digital Marketing Budget Allocation Framework",
+      "description": "Data-driven framework for allocating marketing budgets across channels based on performance data.",
+      "contentType": "Framework",
+      "priority": "High",
+      "estimatedTraffic": "6K-9K",
+      "clusterId": 1
+    },
+    {
+      "Id": 10,
+      "title": "Voice Search Optimization: Future of SEO",
+      "description": "Emerging trends in voice search and how to optimize content for voice queries and smart speakers.",
+      "contentType": "Trend Analysis",
+      "priority": "Low",
+      "estimatedTraffic": "2K-4K",
+      "clusterId": 2
+    }
+  ]
+}

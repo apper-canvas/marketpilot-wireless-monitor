@@ -10,6 +10,7 @@ import Dashboard from '@/components/pages/Dashboard';
 import Analytics from '@/components/pages/Analytics';
 import Campaigns from '@/components/pages/Campaigns';
 import Content from '@/components/pages/Content';
+import SEOPanel from '@/components/pages/SEOPanel';
 import Accounts from '@/components/pages/Accounts';
 import Settings from '@/components/pages/Settings';
 import Reports from '@/components/pages/Reports';
@@ -27,7 +28,8 @@ function App() {
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="analytics" element={<Analytics />} />
             <Route path="campaigns" element={<Campaigns />} />
-            <Route path="content" element={<Content />} />
+<Route path="content" element={<Content />} />
+            <Route path="seo-panel" element={<SEOPanel />} />
             <Route path="accounts" element={<Accounts />} />
             <Route path="settings" element={<Settings />} />
             <Route path="reports" element={<Reports />} />

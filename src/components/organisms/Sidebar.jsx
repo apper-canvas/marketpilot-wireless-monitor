@@ -19,11 +19,17 @@ const navigation = [
       icon: "Megaphone", 
       description: "Manage campaigns"
     },
-    {
+{
       name: "Content Studio",
       path: "/content",
       icon: "FileText",
       description: "AI content generation"
+    },
+    {
+      name: "SEO Panel",
+      path: "/seo-panel",
+      icon: "Target",
+      description: "Keyword clustering & insights"
     },
     {
       name: "Analytics",
