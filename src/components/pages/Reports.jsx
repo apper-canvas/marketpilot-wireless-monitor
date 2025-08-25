@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
-import Card from "@/components/atoms/Card";
-import Button from "@/components/atoms/Button";
-import Input from "@/components/atoms/Input";
-import Select from "@/components/atoms/Select";
-import Badge from "@/components/atoms/Badge";
-import SearchBar from "@/components/molecules/SearchBar";
-import Loading from "@/components/ui/Loading";
-import Error from "@/components/ui/Error";
-import Empty from "@/components/ui/Empty";
-import ApperIcon from "@/components/ApperIcon";
-import reportService from "@/services/api/reportService";
+import React, { useEffect, useState } from "react";
 import { format } from "date-fns";
 import { toast } from "react-toastify";
+import ApperIcon from "@/components/ApperIcon";
+import SearchBar from "@/components/molecules/SearchBar";
+import Card from "@/components/atoms/Card";
+import Select from "@/components/atoms/Select";
+import Button from "@/components/atoms/Button";
+import Badge from "@/components/atoms/Badge";
+import Input from "@/components/atoms/Input";
+import Error from "@/components/ui/Error";
+import Empty from "@/components/ui/Empty";
+import Loading from "@/components/ui/Loading";
+import reportService from "@/services/api/reportService";
 
 const Reports = () => {
   const [reports, setReports] = useState([]);
@@ -257,9 +257,9 @@ const Reports = () => {
                         <div className="text-gray-900">{report.metrics?.length || 0} selected</div>
                       </div>
                       <div>
-                        <span className="font-medium">Date Range:</span>
-                        <div className="text-gray-900">
-                          {report.dateRange?.start ? 
+<div className="text-gray-900">
+                          {report.dateRange?.start && !isNaN(new Date(report.dateRange.start).getTime()) && 
+                           report.dateRange?.end && !isNaN(new Date(report.dateRange.end).getTime()) ? 
                             `${format(new Date(report.dateRange.start), "MMM dd")} - ${format(new Date(report.dateRange.end), "MMM dd")}` :
                             "Last 30 days"
                           }
@@ -275,7 +275,7 @@ const Reports = () => {
                           {format(new Date(), "MMM dd, HH:mm")}
                         </div>
                       </div>
-                    </div>
+</div>
                   </div>
                   
                   <div className="flex items-center space-x-2">

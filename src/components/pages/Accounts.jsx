@@ -280,10 +280,13 @@ const Accounts = () => {
                         </Badge>
                       </div>
                       
-                      <div className="flex items-center space-x-4 text-sm text-gray-600">
+<div className="flex items-center space-x-4 text-sm text-gray-600">
                         <span>Platform: {account.platform}</span>
                         <span>
-                          Last sync: {format(new Date(account.lastSync), "MMM dd, HH:mm")}
+                          Last sync: {account?.lastSync && !isNaN(new Date(account.lastSync).getTime())
+                            ? format(new Date(account.lastSync), "MMM dd, HH:mm")
+                            : "Never synced"
+                          }
                         </span>
                       </div>
                     </div>

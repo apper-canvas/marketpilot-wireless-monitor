@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import ApperIcon from "@/components/ApperIcon";
 import Card from "@/components/atoms/Card";
+import Select from "@/components/atoms/Select";
 import Button from "@/components/atoms/Button";
 import Badge from "@/components/atoms/Badge";
 import Input from "@/components/atoms/Input";
-import Select from "@/components/atoms/Select";
-import ApperIcon from "@/components/ApperIcon";
-import Loading from "@/components/ui/Loading";
 import Empty from "@/components/ui/Empty";
+import Loading from "@/components/ui/Loading";
 import abTestService from "@/services/api/abTestService";
 
 const ABTesting = () => {
@@ -307,16 +307,18 @@ const TestCard = ({
                 </Badge>
               )}
             </div>
-            <p className="text-gray-600 text-sm mb-2">{test.description}</p>
+<p className="text-gray-600 text-sm mb-2">{test.description}</p>
             <div className="flex items-center text-xs text-gray-500 space-x-4">
               <span>Type: {test.type}</span>
               <span>•</span>
               <span>Variants: {test.variants.length}</span>
               <span>•</span>
-              <span>Created: {new Date(test.createdAt).toLocaleDateString()}</span>
+              <span>Created: {test?.createdAt && !isNaN(new Date(test.createdAt).getTime())
+                ? new Date(test.createdAt).toLocaleDateString()
+                : "Unknown date"
+              }</span>
             </div>
           </div>
-          
           <div className="flex items-center space-x-2 ml-4">
             {test.status === 'draft' && (
               <Button size="sm" variant="success" onClick={onStart}>

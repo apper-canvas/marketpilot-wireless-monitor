@@ -305,9 +305,12 @@ const Campaigns = () => {
                         </div>
                       </div>
                       
-                      <div className="flex items-center space-x-6 text-xs text-gray-500">
-                        <span>Started: {format(new Date(campaign.startDate), "MMM dd, yyyy")}</span>
-                        {campaign.endDate && (
+<div className="flex items-center space-x-6 text-xs text-gray-500">
+                        <span>Started: {campaign?.startDate && !isNaN(new Date(campaign.startDate).getTime())
+                          ? format(new Date(campaign.startDate), "MMM dd, yyyy")
+                          : "Unknown date"
+                        }</span>
+                        {campaign.endDate && !isNaN(new Date(campaign.endDate).getTime()) && (
                           <span>Ends: {format(new Date(campaign.endDate), "MMM dd, yyyy")}</span>
                         )}
                         <span>Last updated: {format(new Date(), "MMM dd, HH:mm")}</span>

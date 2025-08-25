@@ -597,8 +597,11 @@ const CreativeStudio = () => {
                         </div>
                       )}
                       
-                      <div className="flex items-center space-x-6 text-xs text-gray-500">
-                        <span>Created: {format(new Date(content.createdAt), "MMM dd, yyyy HH:mm")}</span>
+<div className="flex items-center space-x-6 text-xs text-gray-500">
+                        <span>Created: {content?.createdAt && !isNaN(new Date(content.createdAt).getTime())
+                          ? format(new Date(content.createdAt), "MMM dd, yyyy HH:mm")
+                          : "Unknown date"
+                        }</span>
                         <span>Tone: {content.tone}</span>
                         {content.complianceIssues && content.complianceIssues.length > 0 && (
                           <span className="text-yellow-600">
