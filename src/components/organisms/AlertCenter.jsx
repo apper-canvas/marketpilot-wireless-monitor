@@ -143,7 +143,8 @@ const handleDismiss = async (alertId) => {
           />
         ))}
       </div>
-    </Card>
+</Card>
   );
+};
 
 export default AlertCenter;
