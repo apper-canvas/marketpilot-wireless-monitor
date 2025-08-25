@@ -155,16 +155,16 @@ const SEOPanel = () => {
             onChange={(e) => setDifficultyFilter(e.target.value)}
           >
             <option value="all">All Difficulties</option>
-            <option value="easy">Easy (≤30)</option>
+<option value="easy">Easy (≤30)</option>
             <option value="medium">Medium (31-70)</option>
-            <option value="hard">Hard (>70)</option>
+            <option value="hard">Hard (&gt;70)</option>
           </Select>
           
           <Select
             value={volumeFilter}
             onChange={(e) => setVolumeFilter(e.target.value)}
           >
-<option value="all">All Volumes</option>
+            <option value="all">All Volumes</option>
             <option value="high">High (≥10K)</option>
             <option value="medium">Medium (1K-10K)</option>
             <option value="low">Low (&lt;1K)</option>
