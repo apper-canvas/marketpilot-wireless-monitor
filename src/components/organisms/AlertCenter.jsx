@@ -1,15 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import ApperIcon from "@/components/ApperIcon";
 import AlertCard from "@/components/molecules/AlertCard";
 import Card from "@/components/atoms/Card";
 import Button from "@/components/atoms/Button";
 import Badge from "@/components/atoms/Badge";
-import Loading from "@/components/ui/Loading";
 import Error from "@/components/ui/Error";
 import Empty from "@/components/ui/Empty";
-import ApperIcon from "@/components/ApperIcon";
+import Loading from "@/components/ui/Loading";
 import alertService from "@/services/api/alertService";
-import { toast } from "react-toastify";
-
 const AlertCenter = ({ limit = null, showHeader = true }) => {
   const [alerts, setAlerts] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -53,11 +52,11 @@ const AlertCenter = ({ limit = null, showHeader = true }) => {
     } catch (err) {
       toast.error("Failed to dismiss alert");
     }
-  };
+};
 
   const unreadAlerts = alerts.filter(alert => !alert.resolved);
   const criticalAlerts = alerts.filter(alert => alert.severity === "critical");
-
+  const competitorAlerts = alerts.filter(alert => alert.type?.includes("competitor"));
   if (loading) {
     return <Loading />;
   }
@@ -121,6 +120,16 @@ const AlertCenter = ({ limit = null, showHeader = true }) => {
             <span className="text-sm font-medium text-red-800">
               {criticalAlerts.length} critical {criticalAlerts.length === 1 ? "alert" : "alerts"} requiring immediate attention
             </span>
+</div>
+        </div>
+      )}
+      {competitorAlerts.length > 0 && (
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <div className="flex items-center space-x-2">
+            <ApperIcon name="Eye" className="w-5 h-5 text-blue-600" />
+            <span className="text-sm font-medium text-blue-800">
+              {competitorAlerts.length} competitor {competitorAlerts.length === 1 ? "alert" : "alerts"} detected
+            </span>
           </div>
         </div>
       )}
@@ -137,6 +146,5 @@ const AlertCenter = ({ limit = null, showHeader = true }) => {
       </div>
     </Card>
   );
-};
 
 export default AlertCenter;

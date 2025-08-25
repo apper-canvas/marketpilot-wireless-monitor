@@ -16,6 +16,7 @@ import Accounts from '@/components/pages/Accounts';
 import Settings from '@/components/pages/Settings';
 import Reports from '@/components/pages/Reports';
 import ABTesting from '@/components/pages/ABTesting';
+import CompetitorIntel from '@/components/pages/CompetitorIntel';
 
 // UI Components
 import Error from '@/components/ui/Error';
@@ -37,6 +38,7 @@ function App() {
 <Route path="settings" element={<Settings />} />
 <Route path="reports" element={<Reports />} />
 <Route path="ab-testing" element={<ABTesting />} />
+<Route path="competitor-intel" element={<CompetitorIntel />} />
 <Route path="*" element={<Error message="Page not found" />} />
           </Route>
         </Routes>

@@ -47,20 +47,26 @@ const navigation = [
       name: "Accounts",
       path: "/accounts",
       icon: "Users",
-      description: "Account management"
+description: "Account management"
     },
-{
-name: "Reports",
-path: "/reports",
-icon: "BarChart3",
-description: "Analytics reports"
-},
-{
-name: "A/B Testing",
-path: "/ab-testing",
-icon: "TestTube",
-description: "Experiment & optimize"
-}
+    {
+      name: "Competitor Intel",
+      path: "/competitor-intel",
+      icon: "Eye",
+      description: "Competitor analysis"
+    },
+    {
+      name: "Reports",
+      path: "/reports",
+      icon: "BarChart3",
+      description: "Analytics reports"
+    },
+    {
+      name: "A/B Testing",
+      path: "/ab-testing",
+      icon: "TestTube",
+      description: "Experiment & optimize"
+    }
 ];
 
   const secondaryItems = [

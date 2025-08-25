@@ -92,7 +92,43 @@
     "currentValue": 4.8,
     "timestamp": "2024-11-17T11:20:00Z",
     "resolved": false,
-    "campaignId": 8,
+"campaignId": 8,
     "accountId": "meta_ads_1"
+  },
+  {
+    "Id": 9,
+    "type": "competitor_new_ad",
+    "severity": "info",
+    "metric": "new_creative",
+    "threshold": 0,
+    "currentValue": 1,
+    "timestamp": "2024-11-20T07:30:00Z",
+    "resolved": false,
+    "competitorId": 1,
+    "accountId": "system"
+  },
+  {
+    "Id": 10,
+    "type": "competitor_spend_increase",
+    "severity": "warning",
+    "metric": "estimated_spend",
+    "threshold": 100000,
+    "currentValue": 156000,
+    "timestamp": "2024-11-19T18:15:00Z",
+    "resolved": false,
+    "competitorId": 3,
+    "accountId": "system"
+  },
+  {
+    "Id": 11,
+    "type": "competitor_new_platform",
+    "severity": "info",
+    "metric": "platform_expansion",
+    "threshold": 0,
+    "currentValue": 1,
+    "timestamp": "2024-11-18T12:45:00Z",
+    "resolved": true,
+    "competitorId": 5,
+    "accountId": "system"
   }
 ]

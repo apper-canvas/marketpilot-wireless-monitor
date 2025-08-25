@@ -1,0 +1,219 @@
+[
+  {
+    "Id": 1,
+    "name": "TechFlow Solutions",
+    "domain": "techflow.com",
+    "platforms": ["google", "linkedin", "facebook"],
+    "estimatedSpend": 125000,
+    "spendTrend": 15.2,
+    "marketShare": 23.5,
+    "threatLevel": "high",
+    "status": "active",
+    "alertsEnabled": true,
+    "creativeExamples": [
+      {
+        "id": 1,
+        "platform": "google",
+        "format": "Search Ad",
+        "adCopy": "Transform Your Business with AI-Powered Solutions. Get Started Today!",
+        "imageUrl": "https://example.com/creative1.jpg"
+      },
+      {
+        "id": 2,
+        "platform": "linkedin",
+        "format": "Sponsored Content",
+        "adCopy": "Enterprise AI Solutions That Drive Real Results. See Case Studies.",
+        "imageUrl": "https://example.com/creative2.jpg"
+      },
+      {
+        "id": 3,
+        "platform": "facebook",
+        "format": "Video Ad",
+        "adCopy": "Watch How Fortune 500 Companies Use Our AI Platform",
+        "imageUrl": "https://example.com/creative3.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-20T10:30:00Z",
+    "industry": "Technology",
+    "targetAudience": "Enterprise B2B"
+  },
+  {
+    "Id": 2,
+    "name": "MarketMaster Pro",
+    "domain": "marketmaster.io",
+    "platforms": ["google", "facebook", "instagram", "youtube"],
+    "estimatedSpend": 89000,
+    "spendTrend": -8.3,
+    "marketShare": 18.2,
+    "threatLevel": "medium",
+    "status": "active",
+    "alertsEnabled": false,
+    "creativeExamples": [
+      {
+        "id": 4,
+        "platform": "google",
+        "format": "Display Ad",
+        "adCopy": "Master Your Marketing Strategy with Data-Driven Insights",
+        "imageUrl": "https://example.com/creative4.jpg"
+      },
+      {
+        "id": 5,
+        "platform": "youtube",
+        "format": "Video Ad",
+        "adCopy": "From Zero to Marketing Hero in 30 Days",
+        "imageUrl": "https://example.com/creative5.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-19T14:22:00Z",
+    "industry": "Marketing",
+    "targetAudience": "SMB B2B"
+  },
+  {
+    "Id": 3,
+    "name": "GrowthHacker Inc",
+    "domain": "growthhacker.co",
+    "platforms": ["linkedin", "facebook", "instagram"],
+    "estimatedSpend": 156000,
+    "spendTrend": 28.7,
+    "marketShare": 31.8,
+    "threatLevel": "high",
+    "status": "active",
+    "alertsEnabled": true,
+    "creativeExamples": [
+      {
+        "id": 6,
+        "platform": "linkedin",
+        "format": "Carousel Ad",
+        "adCopy": "5 Growth Strategies That Doubled Our Clients' Revenue",
+        "imageUrl": "https://example.com/creative6.jpg"
+      },
+      {
+        "id": 7,
+        "platform": "instagram",
+        "format": "Story Ad",
+        "adCopy": "Swipe up to unlock explosive growth secrets",
+        "imageUrl": "https://example.com/creative7.jpg"
+      },
+      {
+        "id": 8,
+        "platform": "facebook",
+        "format": "Lead Ad",
+        "adCopy": "Download Free Growth Playbook - 50+ Proven Tactics",
+        "imageUrl": "https://example.com/creative8.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-20T16:15:00Z",
+    "industry": "Consulting",
+    "targetAudience": "B2B SaaS"
+  },
+  {
+    "Id": 4,
+    "name": "DigitalEdge Agency",
+    "domain": "digitaledge.net",
+    "platforms": ["google", "facebook", "linkedin"],
+    "estimatedSpend": 67000,
+    "spendTrend": 5.1,
+    "marketShare": 12.4,
+    "threatLevel": "low",
+    "status": "monitoring",
+    "alertsEnabled": false,
+    "creativeExamples": [
+      {
+        "id": 9,
+        "platform": "google",
+        "format": "Search Ad",
+        "adCopy": "Digital Marketing That Actually Works. Free Audit Available.",
+        "imageUrl": "https://example.com/creative9.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-18T09:45:00Z",
+    "industry": "Agency",
+    "targetAudience": "Local Business"
+  },
+  {
+    "Id": 5,
+    "name": "ScaleTech Ventures",
+    "domain": "scaletech.com",
+    "platforms": ["linkedin", "youtube", "google"],
+    "estimatedSpend": 203000,
+    "spendTrend": 42.6,
+    "marketShare": 26.3,
+    "threatLevel": "high",
+    "status": "active",
+    "alertsEnabled": true,
+    "creativeExamples": [
+      {
+        "id": 10,
+        "platform": "youtube",
+        "format": "Pre-roll Ad",
+        "adCopy": "Scale Your SaaS to $10M ARR - Proven Framework Inside",
+        "imageUrl": "https://example.com/creative10.jpg"
+      },
+      {
+        "id": 11,
+        "platform": "linkedin",
+        "format": "Message Ad",
+        "adCopy": "Exclusive invitation: Join 500+ SaaS founders in our growth program",
+        "imageUrl": "https://example.com/creative11.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-20T11:30:00Z",
+    "industry": "SaaS",
+    "targetAudience": "SaaS Founders"
+  },
+  {
+    "Id": 6,
+    "name": "AutomateAll Solutions",
+    "domain": "automateall.io",
+    "platforms": ["google", "facebook"],
+    "estimatedSpend": 43000,
+    "spendTrend": -12.8,
+    "marketShare": 8.7,
+    "threatLevel": "low",
+    "status": "inactive",
+    "alertsEnabled": false,
+    "creativeExamples": [
+      {
+        "id": 12,
+        "platform": "facebook",
+        "format": "Carousel Ad",
+        "adCopy": "Automate These 10 Business Processes and Save 20 Hours Per Week",
+        "imageUrl": "https://example.com/creative12.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-15T13:20:00Z",
+    "industry": "Automation",
+    "targetAudience": "SMB Operations"
+  },
+  {
+    "Id": 7,
+    "name": "ConversionKing",
+    "domain": "conversionking.com",
+    "platforms": ["google", "facebook", "instagram", "linkedin"],
+    "estimatedSpend": 94000,
+    "spendTrend": 19.4,
+    "marketShare": 15.6,
+    "threatLevel": "medium",
+    "status": "active",
+    "alertsEnabled": true,
+    "creativeExamples": [
+      {
+        "id": 13,
+        "platform": "facebook",
+        "format": "Video Ad",
+        "adCopy": "This Simple A/B Test Increased Conversions by 347%",
+        "imageUrl": "https://example.com/creative13.jpg"
+      },
+      {
+        "id": 14,
+        "platform": "instagram",
+        "format": "Reels Ad",
+        "adCopy": "Landing page secrets that convert 40% more visitors",
+        "imageUrl": "https://example.com/creative14.jpg"
+      }
+    ],
+    "lastSeen": "2024-11-20T08:45:00Z",
+    "industry": "Optimization",
+    "targetAudience": "E-commerce"
+  }
+]

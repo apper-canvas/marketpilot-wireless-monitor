@@ -20,10 +20,10 @@ const alertService = {
     return { ...alert };
   },
 
-  async create(newAlert) {
+async create(newAlert) {
     await new Promise(resolve => setTimeout(resolve, 400));
     
-    const newId = Math.max(...alertData.map(a => a.Id)) + 1;
+    const newId = Math.max(...alertData.map(a => a.Id), 0) + 1;
     const alert = {
       Id: newId,
       ...newAlert,
@@ -43,7 +43,7 @@ const alertService = {
       throw new Error("Alert not found");
     }
     
-    const updatedAlert = { 
+const updatedAlert = { 
       ...alertData[index], 
       ...updates,
       updatedAt: new Date().toISOString()
@@ -51,6 +51,11 @@ const alertService = {
     alertData[index] = updatedAlert;
     
     return { ...updatedAlert };
+  },
+
+  async getCompetitorAlerts() {
+    await new Promise(resolve => setTimeout(resolve, 200));
+    return alertData.filter(alert => alert.type?.includes('competitor')).map(alert => ({ ...alert }));
   },
 
   async delete(id) {
@@ -61,8 +66,22 @@ const alertService = {
       throw new Error("Alert not found");
     }
     
-    const deletedAlert = alertData.splice(index, 1)[0];
+const deletedAlert = alertData.splice(index, 1)[0];
     return { ...deletedAlert };
+  },
+
+  async createCompetitorAlert(competitorId, alertType, data) {
+    const alert = {
+      type: `competitor_${alertType}`,
+      severity: "info",
+      metric: alertType,
+      threshold: 0,
+      currentValue: 1,
+      competitorId: parseInt(competitorId),
+      accountId: "system",
+      ...data
+    };
+    return this.create(alert);
   }
 };
 
