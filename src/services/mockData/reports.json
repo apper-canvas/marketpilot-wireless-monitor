@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "name": "Q4 Campaign Performance Report",
+    "template": "campaign_performance",
+    "dateRange": {
+      "start": "2024-10-01",
+      "end": "2024-12-31"
+    },
+    "metrics": ["impressions", "clicks", "conversions", "ctr", "cpc", "roas"],
+    "schedule": "monthly",
+    "recipients": ["john.doe@company.com", "sarah.marketing@company.com"],
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "updatedAt": "2024-01-15T10:30:00.000Z",
+    "lastGenerated": "2024-01-20T14:45:00.000Z"
+  },
+  {
+    "Id": 2,
+    "name": "Weekly ROI Analysis",
+    "template": "roi_analysis",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-01-07"
+    },
+    "metrics": ["revenue", "cost", "profit", "roi", "roas"],
+    "schedule": "weekly",
+    "recipients": ["finance@company.com", "ceo@company.com"],
+    "createdAt": "2024-01-08T09:15:00.000Z",
+    "updatedAt": "2024-01-08T09:15:00.000Z",
+    "lastGenerated": "2024-01-14T08:00:00.000Z"
+  },
+  {
+    "Id": 3,
+    "name": "Audience Demographics Deep Dive",
+    "template": "audience_insights",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-01-31"
+    },
+    "metrics": ["demographics", "interests", "behavior", "engagement"],
+    "schedule": "manual",
+    "recipients": ["strategy@company.com"],
+    "createdAt": "2024-01-10T16:20:00.000Z",
+    "updatedAt": "2024-01-10T16:20:00.000Z",
+    "lastGenerated": null
+  },
+  {
+    "Id": 4,
+    "name": "Competitive Analysis Q1 2024",
+    "template": "competitive_analysis",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["market_share", "competitor_spend", "share_of_voice", "keyword_overlap"],
+    "schedule": "manual",
+    "recipients": ["marketing@company.com", "strategy@company.com"],
+    "createdAt": "2024-01-05T11:45:00.000Z",
+    "updatedAt": "2024-01-05T11:45:00.000Z",
+    "lastGenerated": "2024-01-12T10:30:00.000Z"
+  },
+  {
+    "Id": 5,
+    "name": "Monthly Executive Summary",
+    "template": "monthly_summary",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-01-31"
+    },
+    "metrics": ["revenue", "leads", "conversion_rate", "customer_acquisition_cost", "lifetime_value"],
+    "schedule": "monthly",
+    "recipients": ["executives@company.com", "board@company.com"],
+    "createdAt": "2024-01-02T08:00:00.000Z",
+    "updatedAt": "2024-01-02T08:00:00.000Z",
+    "lastGenerated": "2024-02-01T09:00:00.000Z"
+  },
+  {
+    "Id": 6,
+    "name": "Executive Dashboard - Real-time KPIs",
+    "template": "executive_dashboard",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    },
+    "metrics": ["revenue", "profit_margin", "customer_count", "churn_rate", "market_share"],
+    "schedule": "daily",
+    "recipients": ["ceo@company.com", "cfo@company.com", "cmo@company.com"],
+    "createdAt": "2024-01-01T07:30:00.000Z",
+    "updatedAt": "2024-01-01T07:30:00.000Z",
+    "lastGenerated": "2024-01-20T07:30:00.000Z"
+  },
+  {
+    "Id": 7,
+    "name": "Social Media Performance Report",
+    "template": "campaign_performance",
+    "dateRange": {
+      "start": "2024-01-15",
+      "end": "2024-01-21"
+    },
+    "metrics": ["reach", "engagement", "shares", "comments", "click_through_rate"],
+    "schedule": "weekly",
+    "recipients": ["social@company.com", "content@company.com"],
+    "createdAt": "2024-01-12T15:00:00.000Z",
+    "updatedAt": "2024-01-12T15:00:00.000Z",
+    "lastGenerated": "2024-01-21T18:00:00.000Z"
+  },
+  {
+    "Id": 8,
+    "name": "Customer Segmentation Analysis",
+    "template": "audience_insights",
+    "dateRange": {
+      "start": "2023-12-01",
+      "end": "2024-01-31"
+    },
+    "metrics": ["segments", "customer_value", "retention_rate", "purchase_behavior"],
+    "schedule": "manual",
+    "recipients": ["crm@company.com", "marketing@company.com"],
+    "createdAt": "2024-01-18T13:15:00.000Z",
+    "updatedAt": "2024-01-18T13:15:00.000Z",
+    "lastGenerated": null
+  }
+]
