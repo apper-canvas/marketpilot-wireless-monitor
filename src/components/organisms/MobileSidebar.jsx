@@ -6,10 +6,10 @@ import ApperIcon from "@/components/ApperIcon";
 const MobileSidebar = ({ isOpen, onClose }) => {
   const location = useLocation();
 
-  const navigation = [
+const navigation = [
     {
       name: "Dashboard",
-      path: "/",
+      path: "/dashboard",
       icon: "LayoutDashboard",
       description: "Overview & KPIs"
     },
