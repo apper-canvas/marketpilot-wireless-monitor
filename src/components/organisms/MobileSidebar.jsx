@@ -11,13 +11,19 @@ const navigation = [
       name: "Dashboard",
       path: "/dashboard",
       icon: "LayoutDashboard",
-      description: "Overview & KPIs"
+      description: "Main dashboard"
+    },
+    {
+      name: "Analytics",
+      path: "/analytics",
+      icon: "TrendingUp",
+      description: "Performance insights"
     },
     {
       name: "Campaigns",
       path: "/campaigns",
-      icon: "Megaphone", 
-      description: "Manage campaigns"
+      icon: "Megaphone",
+      description: "Marketing campaigns"
     },
     {
       name: "Content Studio",
@@ -26,22 +32,28 @@ const navigation = [
       description: "AI content generation"
     },
     {
-      name: "Analytics",
-      path: "/analytics", 
-      icon: "BarChart3",
-      description: "Performance insights"
+      name: "Creative Studio",
+      path: "/creative-studio",
+      icon: "Palette",
+      description: "Creative tools"
     },
     {
-      name: "Reports", 
-      path: "/reports",
-      icon: "FileBarChart",
-      description: "Custom reports"
+      name: "SEO Panel",
+      path: "/seo-panel",
+      icon: "Search",
+      description: "SEO optimization"
     },
     {
       name: "Accounts",
       path: "/accounts",
       icon: "Link",
       description: "Connected platforms"
+    },
+    {
+      name: "Reports",
+      path: "/reports",
+      icon: "BarChart3",
+      description: "Custom reports"
     }
   ];
 

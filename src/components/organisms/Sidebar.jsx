@@ -14,40 +14,55 @@ const navigation = [
       description: "Overview & KPIs"
     },
     {
+      name: "Analytics",
+      path: "/analytics",
+      icon: "TrendingUp",
+      description: "Performance insights"
+    },
+    {
       name: "Campaigns",
       path: "/campaigns",
-      icon: "Megaphone", 
-      description: "Manage campaigns"
+      icon: "Megaphone",
+      description: "Campaign management"
     },
-{
-      name: "Content Studio",
+    {
+      name: "Content",
       path: "/content",
       icon: "FileText",
-      description: "AI content generation"
+      description: "Content creation"
+    },
+    {
+      name: "Creative Studio",
+      path: "/creative-studio",
+      icon: "Palette",
+      description: "Design tools"
     },
     {
       name: "SEO Panel",
       path: "/seo-panel",
-      icon: "Target",
-      description: "Keyword clustering & insights"
-    },
-    {
-      name: "Analytics",
-      path: "/analytics", 
-      icon: "BarChart3",
-      description: "Performance insights"
-    },
-    {
-      name: "Reports", 
-      path: "/reports",
-      icon: "FileBarChart",
-      description: "Custom reports"
+      icon: "Search",
+      description: "SEO optimization"
     },
     {
       name: "Accounts",
       path: "/accounts",
-      icon: "Link",
-      description: "Connected platforms"
+      icon: "Users",
+      description: "Account management"
+    },
+    {
+      name: "Reports",
+      path: "/reports",
+      icon: "BarChart3",
+      description: "Analytics reports"
+    }
+  ];
+
+  const secondaryItems = [
+    {
+      name: "Help & Support",
+      path: "/support",
+      icon: "HelpCircle",
+      description: "Get help"
     }
   ];
 

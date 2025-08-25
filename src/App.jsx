@@ -10,6 +10,7 @@ import Dashboard from '@/components/pages/Dashboard';
 import Analytics from '@/components/pages/Analytics';
 import Campaigns from '@/components/pages/Campaigns';
 import Content from '@/components/pages/Content';
+import CreativeStudio from '@/components/pages/CreativeStudio';
 import SEOPanel from '@/components/pages/SEOPanel';
 import Accounts from '@/components/pages/Accounts';
 import Settings from '@/components/pages/Settings';
@@ -27,8 +28,9 @@ function App() {
             <Route index element={<Navigate to="/dashboard" replace />} />
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="analytics" element={<Analytics />} />
-            <Route path="campaigns" element={<Campaigns />} />
-<Route path="content" element={<Content />} />
+<Route path="campaigns" element={<Campaigns />} />
+            <Route path="content" element={<Content />} />
+            <Route path="creative-studio" element={<CreativeStudio />} />
             <Route path="seo-panel" element={<SEOPanel />} />
             <Route path="accounts" element={<Accounts />} />
             <Route path="settings" element={<Settings />} />

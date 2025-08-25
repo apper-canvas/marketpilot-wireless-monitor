@@ -1,0 +1,150 @@
+[
+  {
+    "Id": 1,
+    "type": "ad_copy",
+    "platform": "facebook",
+    "brief": "Promote our new AI-powered marketing automation platform for small businesses with focus on ROI and ease of use",
+    "tone": "professional",
+    "content": "Transform your marketing with AI-powered automation designed specifically for small businesses. Our intelligent platform streamlines campaigns, personalizes customer interactions, and delivers measurable ROI.\n\nKey Benefits:\n✓ 40% increase in lead conversion\n✓ Save 15+ hours weekly on manual tasks\n✓ Professional results without the complexity\n✓ 24/7 automated customer engagement\n\nJoin 10,000+ successful businesses already using our platform. Start your free 14-day trial today and experience the future of marketing automation.\n\n[Start Free Trial] [Watch Demo]",
+    "imageUrls": [
+      "/images/creative/ai-platform-hero.jpg",
+      "/images/creative/dashboard-preview.jpg",
+      "/images/creative/results-chart.jpg",
+      "/images/creative/testimonial-grid.jpg"
+    ],
+    "imageDescriptions": [
+      "Professional hero image featuring modern dashboard interface",
+      "Clean screenshot of platform dashboard with key metrics",
+      "ROI results chart showing 40% improvement",
+      "Customer testimonials with authentic business owner photos"
+    ],
+    "complianceStatus": "approved",
+    "complianceIssues": [],
+    "createdAt": "11/20/2024 10:30:00 AMZ",
+    "status": "published"
+  },
+  {
+    "Id": 2,
+    "type": "social_post",
+    "platform": "instagram",
+    "brief": "Behind-the-scenes content showing our team working on new AI features, casual and engaging tone",
+    "tone": "casual",
+    "content": "✨ Late night coding sessions = Amazing new features! ✨\n\nOur dev team has been absolutely crushing it this week! 💪 Can you guess what we're building? 🤔\n\nHint: It involves AI, automation, and something that's going to make your marketing life SO much easier! 🚀\n\nDrop your guesses below 👇 First person to get it right gets early access! 😎\n\n#BehindTheScenes #TeamWork #AI #MarketingTech #Innovation #ComingSoon #EarlyAccess",
+    "imageUrls": [
+      "/images/creative/team-coding.jpg",
+      "/images/creative/office-night.jpg"
+    ],
+    "imageDescriptions": [
+      "Candid shot of developers working late with multiple monitors",
+      "Atmospheric office photo with warm lighting and creative energy"
+    ],
+    "complianceStatus": "approved",
+    "complianceIssues": [],
+    "createdAt": "2024-11-19T22:15:00Z",
+    "status": "draft"
+  },
+  {
+    "Id": 3,
+    "type": "email",
+    "platform": "email",
+    "brief": "Welcome email series for new trial users, professional tone with clear next steps and value proposition",
+    "tone": "professional",
+    "content": "Subject: Welcome to MarketPilot AI - Your Marketing Success Starts Here! 🎉\n\nDear Sarah,\n\nWelcome to MarketPilot AI! I'm thrilled you've decided to transform your marketing with our AI-powered platform.\n\nYour free trial gives you complete access to:\n\n✓ AI Content Generator - Create compelling copy in seconds\n✓ Smart Campaign Management - Automate your entire funnel  \n✓ Advanced Analytics Dashboard - Track ROI in real-time\n✓ Compliance Checker - Ensure all content meets platform guidelines\n\nTo get started:\n1. Complete your profile setup (2 minutes)\n2. Connect your first marketing account\n3. Generate your first AI-powered campaign\n\nI've also included our \"Quick Start Guide\" to help you see results within your first week.\n\nQuestions? Reply to this email or schedule a personal demo with our success team.\n\nHere's to your marketing success!\n\nBest regards,\nMichael Chen\nCustomer Success Manager\nMarketPilot AI\n\nP.S. Pro tip: Users who complete setup in their first 48 hours see 3x better results!",
+    "imageUrls": [
+      "/images/creative/welcome-header.jpg",
+      "/images/creative/getting-started.jpg",
+      "/images/creative/success-metrics.jpg"
+    ],
+    "imageDescriptions": [
+      "Welcoming header banner with modern brand styling",
+      "Step-by-step getting started visual guide",
+      "Success metrics showcasing platform effectiveness"
+    ],
+    "complianceStatus": "warning",
+    "complianceIssues": [
+      {
+        "type": "CAN-SPAM Compliance",
+        "message": "Email missing required unsubscribe link and physical address",
+        "suggestion": "Add footer with unsubscribe option and company address"
+      }
+    ],
+    "createdAt": "2024-11-18T14:45:00Z",
+    "status": "draft"
+  },
+  {
+    "Id": 4,
+    "type": "banner_ad",
+    "platform": "google_ads",
+    "brief": "Display banner for retargeting campaign, focus on free trial offer with urgency",
+    "tone": "urgent",
+    "content": "⏰ DON'T MISS OUT!\n\n🎯 AI Marketing Platform\n✅ Free 14-Day Trial\n✅ No Setup Fees\n✅ Cancel Anytime\n\n🚀 Join 10,000+ Businesses\n📈 Average 40% ROI Increase\n\n⚡ Limited Time: Extra 30 Days FREE!\n\nCLAIM YOUR SPOT NOW →",
+    "imageUrls": [
+      "/images/creative/banner-animated.gif",
+      "/images/creative/banner-static.jpg",
+      "/images/creative/banner-mobile.jpg"
+    ],
+    "imageDescriptions": [
+      "Animated banner with countdown timer and pulsing CTA button",
+      "Static display version with high contrast colors and clear offer",
+      "Mobile-optimized responsive banner variant"
+    ],
+    "complianceStatus": "warning",
+    "complianceIssues": [
+      {
+        "type": "Editorial Policy",
+        "message": "Excessive punctuation and caps may affect ad quality score",
+        "suggestion": "Reduce exclamation marks and avoid excessive capitalization"
+      }
+    ],
+    "createdAt": "2024-11-17T16:20:00Z",
+    "status": "draft"
+  },
+  {
+    "Id": 5,
+    "type": "landing_copy",
+    "platform": "web",
+    "brief": "Homepage hero section for enterprise clients, emphasis on security, scalability, and ROI",
+    "tone": "professional",
+    "content": "# Enterprise Marketing Intelligence Platform\n\n## Trusted by Fortune 500 Companies Worldwide\n\nTransform your marketing operations with enterprise-grade AI that delivers measurable results at scale. Our platform combines advanced machine learning with robust security to drive growth for the world's largest organizations.\n\n### Why Industry Leaders Choose MarketPilot AI\n\n**🏢 Enterprise-Scale Performance**\nHandle millions of data points, thousands of campaigns, and complex organizational structures with 99.9% uptime reliability.\n\n**🔒 Bank-Level Security & Compliance**\nSOC 2 Type II certified with GDPR, CCPA, and HIPAA compliance. Advanced encryption and role-based access controls.\n\n**📊 Proven ROI at Scale**\nAverage enterprise clients see 340% ROI within 6 months. Real-time analytics and attribution across all channels.\n\n**🤝 Dedicated Success Partnership**\nPersonalized onboarding, strategic consultation, and 24/7 priority support from our enterprise team.\n\n### Trusted by Global Leaders\n\n\"MarketPilot AI transformed our marketing operations across 47 countries. The ROI speaks for itself.\"\n*- Chief Marketing Officer, Fortune 100 Technology Company*\n\nReady to scale your marketing intelligence?\n\n[Schedule Enterprise Demo] [Download ROI Calculator]",
+    "imageUrls": [
+      "/images/creative/enterprise-hero.jpg",
+      "/images/creative/security-badges.jpg",
+      "/images/creative/roi-calculator.jpg",
+      "/images/creative/testimonial-fortune500.jpg"
+    ],
+    "imageDescriptions": [
+      "Sophisticated hero banner with enterprise dashboard preview",
+      "Security certifications and compliance badges layout",
+      "Interactive ROI calculator with impressive metrics",
+      "Executive testimonial with professional corporate photo"
+    ],
+    "complianceStatus": "approved",
+    "complianceIssues": [],
+    "createdAt": "2024-11-16T11:30:00Z",
+    "status": "approved"
+  },
+  {
+    "Id": 6,
+    "type": "ad_copy",
+    "platform": "linkedin",
+    "brief": "B2B ad targeting marketing directors about marketing automation ROI and efficiency gains",
+    "tone": "professional",
+    "content": "Marketing Directors: Is manual campaign management consuming your team's strategic time?\n\nOur AI-powered marketing automation platform helps B2B marketing leaders like you:\n\n→ Reduce campaign setup time by 75%\n→ Improve lead quality scores by 45%\n→ Increase marketing qualified leads by 60%\n→ Free up 20+ hours weekly for strategy\n\nWith advanced AI that learns your audience preferences, automated A/B testing, and real-time optimization, you can focus on what matters most: driving revenue growth.\n\nJoin 2,500+ marketing leaders who've transformed their operations.\n\n✓ Free 14-day trial\n✓ No setup fees\n✓ White-glove onboarding\n\nSee why Forbes called us \"The Future of B2B Marketing Automation.\"\n\n[Start Free Trial] [Download Case Study]",
+    "imageUrls": [
+      "/images/creative/b2b-professional.jpg",
+      "/images/creative/stats-dashboard.jpg",
+      "/images/creative/forbes-mention.jpg",
+      "/images/creative/marketing-team.jpg"
+    ],
+    "imageDescriptions": [
+      "Professional B2B marketing director in modern office setting",
+      "Clean dashboard showing impressive performance statistics",
+      "Forbes logo and quote highlight for credibility",
+      "Diverse marketing team collaborating on strategy"
+    ],
+    "complianceStatus": "approved",
+    "complianceIssues": [],
+    "createdAt": "2024-11-15T09:45:00Z",
+    "status": "published"
+  }
+]
