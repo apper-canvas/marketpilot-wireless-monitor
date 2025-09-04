@@ -1,0 +1,306 @@
+{
+  "keywordClusters": [
+    {
+      "Id": 1,
+      "name": "Social Media Marketing",
+      "keywords": [
+        {"term": "social media marketing", "volume": 49500, "difficulty": 78, "cpc": 3.24},
+        {"term": "social media strategy", "volume": 12100, "difficulty": 65, "cpc": 2.87},
+        {"term": "social media management", "volume": 18100, "difficulty": 72, "cpc": 4.12},
+        {"term": "social media advertising", "volume": 8100, "difficulty": 69, "cpc": 3.98},
+        {"term": "social media content", "volume": 6600, "difficulty": 58, "cpc": 2.45}
+      ],
+      "totalVolume": 94400,
+      "avgDifficulty": 68,
+      "competition": "High",
+      "opportunity": 85
+    },
+    {
+      "Id": 2,
+      "name": "Content Marketing",
+      "keywords": [
+        {"term": "content marketing", "volume": 33100, "difficulty": 75, "cpc": 4.67},
+        {"term": "content strategy", "volume": 14800, "difficulty": 68, "cpc": 3.89},
+        {"term": "content creation", "volume": 22200, "difficulty": 62, "cpc": 3.12},
+        {"term": "content calendar", "volume": 9900, "difficulty": 55, "cpc": 2.78},
+        {"term": "content planning", "volume": 5400, "difficulty": 51, "cpc": 2.34}
+      ],
+      "totalVolume": 85400,
+      "avgDifficulty": 62,
+      "competition": "Medium",
+      "opportunity": 78
+    },
+    {
+      "Id": 3,
+      "name": "Email Marketing",
+      "keywords": [
+        {"term": "email marketing", "volume": 40500, "difficulty": 71, "cpc": 3.45},
+        {"term": "email automation", "volume": 12100, "difficulty": 64, "cpc": 4.23},
+        {"term": "email campaigns", "volume": 16500, "difficulty": 59, "cpc": 2.98},
+        {"term": "email templates", "volume": 27100, "difficulty": 48, "cpc": 1.87},
+        {"term": "email newsletters", "volume": 8800, "difficulty": 52, "cpc": 2.12}
+      ],
+      "totalVolume": 105000,
+      "avgDifficulty": 59,
+      "competition": "Medium",
+      "opportunity": 92
+    },
+    {
+      "Id": 4,
+      "name": "SEO Optimization",
+      "keywords": [
+        {"term": "search engine optimization", "volume": 74000, "difficulty": 82, "cpc": 5.67},
+        {"term": "keyword research", "volume": 27100, "difficulty": 71, "cpc": 4.12},
+        {"term": "on page seo", "volume": 18100, "difficulty": 65, "cpc": 3.89},
+        {"term": "link building", "volume": 22200, "difficulty": 78, "cpc": 4.56},
+        {"term": "seo tools", "volume": 35600, "difficulty": 69, "cpc": 3.98}
+      ],
+      "totalVolume": 177000,
+      "avgDifficulty": 73,
+      "competition": "High",
+      "opportunity": 88
+    },
+    {
+      "Id": 5,
+      "name": "PPC Advertising",
+      "keywords": [
+        {"term": "pay per click", "volume": 18100, "difficulty": 76, "cpc": 6.78},
+        {"term": "google ads", "volume": 135000, "difficulty": 79, "cpc": 7.23},
+        {"term": "facebook ads", "volume": 90500, "difficulty": 74, "cpc": 5.89},
+        {"term": "ppc management", "volume": 8100, "difficulty": 68, "cpc": 8.12},
+        {"term": "ad campaigns", "volume": 12100, "difficulty": 63, "cpc": 4.67}
+      ],
+      "totalVolume": 263800,
+      "avgDifficulty": 72,
+      "competition": "High",
+      "opportunity": 76
+    },
+    {
+      "Id": 6,
+      "name": "Marketing Analytics",
+      "keywords": [
+        {"term": "marketing analytics", "volume": 22200, "difficulty": 69, "cpc": 4.89},
+        {"term": "conversion tracking", "volume": 9900, "difficulty": 61, "cpc": 3.76},
+        {"term": "marketing metrics", "volume": 6600, "difficulty": 58, "cpc": 3.21},
+        {"term": "roi measurement", "volume": 4400, "difficulty": 55, "cpc": 2.98},
+        {"term": "attribution modeling", "volume": 2900, "difficulty": 72, "cpc": 5.67}
+      ],
+      "totalVolume": 46000,
+      "avgDifficulty": 63,
+      "competition": "Medium",
+      "opportunity": 84
+    },
+    {
+      "Id": 7,
+      "name": "Brand Management",
+      "keywords": [
+        {"term": "brand management", "volume": 18100, "difficulty": 67, "cpc": 4.23},
+        {"term": "brand strategy", "volume": 12100, "difficulty": 71, "cpc": 5.12},
+        {"term": "brand identity", "volume": 22200, "difficulty": 59, "cpc": 3.45},
+        {"term": "brand awareness", "volume": 16500, "difficulty": 64, "cpc": 3.89},
+        {"term": "brand positioning", "volume": 5400, "difficulty": 68, "cpc": 4.67}
+      ],
+      "totalVolume": 74300,
+      "avgDifficulty": 66,
+      "competition": "Medium",
+      "opportunity": 81
+    },
+    {
+      "Id": 8,
+      "name": "Influencer Marketing",
+      "keywords": [
+        {"term": "influencer marketing", "volume": 27100, "difficulty": 73, "cpc": 4.56},
+        {"term": "influencer outreach", "volume": 4400, "difficulty": 62, "cpc": 3.78},
+        {"term": "micro influencers", "volume": 8100, "difficulty": 55, "cpc": 2.89},
+        {"term": "influencer campaigns", "volume": 3600, "difficulty": 67, "cpc": 4.12},
+        {"term": "influencer partnerships", "volume": 2400, "difficulty": 64, "cpc": 3.67}
+      ],
+      "totalVolume": 45600,
+      "avgDifficulty": 64,
+      "competition": "Medium",
+      "opportunity": 87
+    },
+    {
+      "Id": 9,
+      "name": "Marketing Automation",
+      "keywords": [
+        {"term": "marketing automation", "volume": 22200, "difficulty": 75, "cpc": 6.23},
+        {"term": "lead nurturing", "volume": 6600, "difficulty": 68, "cpc": 4.89},
+        {"term": "customer journey", "volume": 12100, "difficulty": 61, "cpc": 3.56},
+        {"term": "workflow automation", "volume": 8100, "difficulty": 59, "cpc": 3.12},
+        {"term": "drip campaigns", "volume": 4400, "difficulty": 57, "cpc": 2.78}
+      ],
+      "totalVolume": 53400,
+      "avgDifficulty": 64,
+      "competition": "Medium",
+      "opportunity": 89
+    },
+    {
+      "Id": 10,
+      "name": "Video Marketing",
+      "keywords": [
+        {"term": "video marketing", "volume": 18100, "difficulty": 69, "cpc": 3.89},
+        {"term": "youtube marketing", "volume": 14800, "difficulty": 72, "cpc": 4.12},
+        {"term": "video content", "volume": 27100, "difficulty": 58, "cpc": 2.67},
+        {"term": "video advertising", "volume": 9900, "difficulty": 65, "cpc": 4.56},
+        {"term": "video seo", "volume": 5400, "difficulty": 63, "cpc": 3.23}
+      ],
+      "totalVolume": 75300,
+      "avgDifficulty": 65,
+      "competition": "Medium",
+      "opportunity": 83
+    },
+    {
+      "Id": 11,
+      "name": "Mobile Marketing",
+      "keywords": [
+        {"term": "mobile marketing", "volume": 14800, "difficulty": 71, "cpc": 4.67},
+        {"term": "app marketing", "volume": 12100, "difficulty": 68, "cpc": 5.23},
+        {"term": "mobile advertising", "volume": 9900, "difficulty": 65, "cpc": 4.12},
+        {"term": "sms marketing", "volume": 16500, "difficulty": 59, "cpc": 3.45},
+        {"term": "push notifications", "volume": 8100, "difficulty": 56, "cpc": 2.89}
+      ],
+      "totalVolume": 61400,
+      "avgDifficulty": 64,
+      "competition": "Medium",
+      "opportunity": 86
+    },
+    {
+      "Id": 12,
+      "name": "Conversion Optimization",
+      "keywords": [
+        {"term": "conversion rate optimization", "volume": 18100, "difficulty": 74, "cpc": 5.67},
+        {"term": "a/b testing", "volume": 22200, "difficulty": 68, "cpc": 4.23},
+        {"term": "landing page optimization", "volume": 8100, "difficulty": 65, "cpc": 4.89},
+        {"term": "user experience", "volume": 49500, "difficulty": 61, "cpc": 3.56},
+        {"term": "conversion funnel", "volume": 5400, "difficulty": 69, "cpc": 4.12}
+      ],
+      "totalVolume": 103300,
+      "avgDifficulty": 67,
+      "competition": "Medium",
+      "opportunity": 91
+    }
+  ],
+  "contentSuggestions": [
+    {
+      "Id": 1,
+      "title": "Ultimate Guide to Social Media Marketing Strategy",
+      "description": "Comprehensive guide covering platform-specific strategies, content planning, and engagement optimization for maximum ROI.",
+      "contentType": "Guide",
+      "priority": "High",
+      "estimatedTraffic": "8K-15K"
+    },
+    {
+      "Id": 2,
+      "title": "10 Content Marketing Trends to Watch This Year",
+      "description": "Stay ahead with the latest content marketing trends including AI-powered content, interactive formats, and personalization.",
+      "contentType": "Blog Post",
+      "priority": "Medium",
+      "estimatedTraffic": "3K-7K"
+    },
+    {
+      "Id": 3,
+      "title": "Email Marketing Automation: Complete Setup Guide",
+      "description": "Step-by-step tutorial on setting up automated email sequences that convert subscribers into customers.",
+      "contentType": "Tutorial",
+      "priority": "High",
+      "estimatedTraffic": "5K-12K"
+    },
+    {
+      "Id": 4,
+      "title": "SEO Keyword Research Tools Comparison 2024",
+      "description": "In-depth comparison of the best keyword research tools with pricing, features, and use case recommendations.",
+      "contentType": "Comparison",
+      "priority": "Medium",
+      "estimatedTraffic": "4K-9K"
+    },
+    {
+      "Id": 5,
+      "title": "Google Ads vs Facebook Ads: Which is Better?",
+      "description": "Detailed analysis of both platforms covering costs, targeting options, and best practices for different business types.",
+      "contentType": "Comparison",
+      "priority": "High",
+      "estimatedTraffic": "6K-14K"
+    },
+    {
+      "Id": 6,
+      "title": "Marketing Analytics Dashboard Setup Guide",
+      "description": "How to create custom marketing dashboards that track the metrics that matter most for your business growth.",
+      "contentType": "Tutorial",
+      "priority": "Medium",
+      "estimatedTraffic": "2K-6K"
+    },
+    {
+      "Id": 7,
+      "title": "Brand Identity Design: From Concept to Launch",
+      "description": "Complete process for developing a compelling brand identity including logo design, color schemes, and brand guidelines.",
+      "contentType": "Guide",
+      "priority": "Low",
+      "estimatedTraffic": "3K-8K"
+    },
+    {
+      "Id": 8,
+      "title": "Micro-Influencer Marketing Strategy for Small Businesses",
+      "description": "Practical guide to finding and working with micro-influencers on a budget, including outreach templates and negotiation tips.",
+      "contentType": "Blog Post",
+      "priority": "High",
+      "estimatedTraffic": "4K-10K"
+    },
+    {
+      "Id": 9,
+      "title": "Marketing Automation Workflow Templates",
+      "description": "Ready-to-use automation workflows for lead generation, customer onboarding, and retention campaigns.",
+      "contentType": "Templates",
+      "priority": "Medium",
+      "estimatedTraffic": "3K-7K"
+    },
+    {
+      "Id": 10,
+      "title": "Video Marketing on YouTube: Creator's Guide",
+      "description": "Everything you need to know about YouTube marketing including optimization, thumbnails, and monetization strategies.",
+      "contentType": "Guide",
+      "priority": "High",
+      "estimatedTraffic": "5K-11K"
+    },
+    {
+      "Id": 11,
+      "title": "Mobile-First Marketing: Design and Strategy Tips",
+      "description": "Best practices for creating mobile-optimized marketing campaigns that drive engagement and conversions.",
+      "contentType": "Blog Post",
+      "priority": "Medium",
+      "estimatedTraffic": "2K-5K"
+    },
+    {
+      "Id": 12,
+      "title": "A/B Testing Your Landing Pages: Complete Guide",
+      "description": "Statistical approach to landing page optimization with testing methodologies, tools, and result interpretation.",
+      "contentType": "Tutorial",
+      "priority": "High",
+      "estimatedTraffic": "4K-9K"
+    },
+    {
+      "Id": 13,
+      "title": "Customer Journey Mapping for Better Conversions",
+      "description": "How to map your customer journey and identify optimization opportunities at each stage of the funnel.",
+      "contentType": "Guide",
+      "priority": "Medium",
+      "estimatedTraffic": "3K-8K"
+    },
+    {
+      "Id": 14,
+      "title": "Content Calendar Template and Planning Strategy",
+      "description": "Free content calendar template with strategic planning tips for consistent, engaging content across all channels.",
+      "contentType": "Templates",
+      "priority": "Low",
+      "estimatedTraffic": "2K-6K"
+    },
+    {
+      "Id": 15,
+      "title": "Marketing ROI Calculation: Metrics That Matter",
+      "description": "Learn to calculate and improve marketing ROI with key metrics, attribution models, and reporting frameworks.",
+      "contentType": "Blog Post",
+      "priority": "Medium",
+      "estimatedTraffic": "3K-7K"
+    }
+  ]
+}
