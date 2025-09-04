@@ -122,4 +122,3 @@ const campaignService = {
 };
 
 export default campaignService;
-export default campaignService;

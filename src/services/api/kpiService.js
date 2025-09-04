@@ -97,4 +97,3 @@ const kpiService = {
 };
 
 export default kpiService;
-export default kpiService;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
 import Select from "@/components/atoms/Select";
@@ -101,11 +101,10 @@ const DashboardHeader = ({
                 </button>
                 <button 
                   className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2 border-t border-gray-100"
-                  onClick={() => {
-                    import('../../App').then(({ AuthContext }) => {
-                      const { logout } = React.useContext(AuthContext);
-                      logout();
-                    });
+onClick={async () => {
+                    const { AuthContext } = await import('../../App');
+                    const { logout } = useContext(AuthContext);
+                    logout();
                   }}
                 >
                   <ApperIcon name="LogOut" className="w-4 h-4" />
