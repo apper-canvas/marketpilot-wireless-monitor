@@ -1,4 +1,5 @@
 import React, { useState, useContext } from "react";
+import { AuthContext } from "@/App";
 import ApperIcon from "@/components/ApperIcon";
 import Button from "@/components/atoms/Button";
 import Select from "@/components/atoms/Select";
@@ -11,6 +12,7 @@ const DashboardHeader = ({
   onAccountChange,
   onSearch
 }) => {
+  const { logout } = useContext(AuthContext);
   const [showProfileMenu, setShowProfileMenu] = useState(false);
 
   return (
@@ -101,11 +103,7 @@ const DashboardHeader = ({
                 </button>
                 <button 
                   className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2 border-t border-gray-100"
-onClick={async () => {
-                    const { AuthContext } = await import('../../App');
-                    const { logout } = useContext(AuthContext);
-                    logout();
-                  }}
+onClick={() => logout()}
                 >
                   <ApperIcon name="LogOut" className="w-4 h-4" />
                   <span>Logout</span>
