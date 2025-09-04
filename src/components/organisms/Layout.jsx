@@ -67,7 +67,7 @@ const Layout = () => {
         </div>
 {/* Page Content */}
         <main className="p-6">
-<Outlet />
+          <Outlet />
         </main>
       </div>
     </div>

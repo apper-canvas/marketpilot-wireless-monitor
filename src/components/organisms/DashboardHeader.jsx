@@ -87,9 +87,9 @@ const DashboardHeader = ({
             
             {showProfileMenu && (
               <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50 py-2">
-                <div className="px-4 py-2 border-b border-gray-100">
+<div className="px-4 py-2 border-b border-gray-100">
                   <p className="text-sm font-medium text-gray-900">{user.name}</p>
-                  <p className="text-xs text-gray-500">Marketing Dashboard</p>
+                  <p className="text-xs text-gray-500">marketing@company.com</p>
                 </div>
                 <button className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2">
                   <ApperIcon name="Settings" className="w-4 h-4" />
@@ -98,6 +98,18 @@ const DashboardHeader = ({
                 <button className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2">
                   <ApperIcon name="HelpCircle" className="w-4 h-4" />
                   <span>Help & Support</span>
+                </button>
+                <button 
+                  className="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 flex items-center space-x-2 border-t border-gray-100"
+                  onClick={() => {
+                    import('../../App').then(({ AuthContext }) => {
+                      const { logout } = React.useContext(AuthContext);
+                      logout();
+                    });
+                  }}
+                >
+                  <ApperIcon name="LogOut" className="w-4 h-4" />
+                  <span>Logout</span>
                 </button>
               </div>
             )}

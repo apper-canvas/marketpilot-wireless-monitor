@@ -1,3 +1,4 @@
+// Import mock data
 import competitorData from "@/services/mockData/competitors.json";
 
 const competitorService = {
