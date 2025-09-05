@@ -1,0 +1,391 @@
+[
+  {
+    "Id": 1,
+    "name": "Homepage Hero Banner Optimization",
+    "description": "Testing different hero banner designs to improve conversion rates on the homepage",
+    "type": "landing_page",
+    "status": "running",
+    "targetUrl": "https://example.com/homepage",
+    "conversionGoal": "signup",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-16T14:20:00Z",
+    "startedAt": "2024-01-16T14:20:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Original hero banner with existing copy and CTA",
+        "trafficSplit": 50,
+        "visitors": 2847,
+        "conversions": 184,
+        "revenue": 9200
+      },
+      {
+        "id": "variant_1",
+        "name": "Bold CTA",
+        "description": "Updated banner with larger, more prominent call-to-action button",
+        "trafficSplit": 50,
+        "visitors": 2901,
+        "conversions": 219,
+        "revenue": 10950
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Email Subject Line Test",
+    "description": "A/B testing email subject lines for weekly newsletter to improve open rates",
+    "type": "email",
+    "status": "completed",
+    "targetUrl": "email-campaign-weekly-newsletter",
+    "conversionGoal": "click",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-10T09:15:00Z",
+    "updatedAt": "2024-01-20T16:45:00Z",
+    "startedAt": "2024-01-12T09:00:00Z",
+    "completedAt": "2024-01-20T16:45:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Standard subject: 'Weekly Marketing Tips Inside'",
+        "trafficSplit": 50,
+        "visitors": 5000,
+        "conversions": 850,
+        "revenue": 4250
+      },
+      {
+        "id": "variant_1",
+        "name": "Urgency Focus",
+        "description": "Subject: 'Last Chance: This Week's Marketing Secrets'",
+        "trafficSplit": 50,
+        "visitors": 5000,
+        "conversions": 1120,
+        "revenue": 5600
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Product Page CTA Button Color",
+    "description": "Testing different CTA button colors on product pages to maximize purchases",
+    "type": "cta_button",
+    "status": "running",
+    "targetUrl": "https://example.com/products/premium-plan",
+    "conversionGoal": "purchase",
+    "trafficAllocation": 80,
+    "createdAt": "2024-01-22T11:00:00Z",
+    "updatedAt": "2024-01-23T10:30:00Z",
+    "startedAt": "2024-01-23T10:30:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Original blue CTA button (#5B4FE8)",
+        "trafficSplit": 40,
+        "visitors": 1203,
+        "conversions": 96,
+        "revenue": 9600
+      },
+      {
+        "id": "variant_1",
+        "name": "Orange CTA",
+        "description": "Bright orange CTA button (#FF6B35)",
+        "trafficSplit": 40,
+        "visitors": 1184,
+        "conversions": 118,
+        "revenue": 11800
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Landing Page Headline Test",
+    "description": "Testing different value proposition headlines to improve lead generation",
+    "type": "headline",
+    "status": "paused",
+    "targetUrl": "https://example.com/marketing-automation",
+    "conversionGoal": "signup",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-18T14:20:00Z",
+    "updatedAt": "2024-01-25T09:15:00Z",
+    "startedAt": "2024-01-20T10:00:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Headline: 'Automate Your Marketing Campaigns'",
+        "trafficSplit": 50,
+        "visitors": 892,
+        "conversions": 67,
+        "revenue": 3350
+      },
+      {
+        "id": "variant_1",
+        "name": "Benefit Focus",
+        "description": "Headline: 'Increase Sales by 40% with Marketing Automation'",
+        "trafficSplit": 50,
+        "visitors": 856,
+        "conversions": 79,
+        "revenue": 3950
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "Social Media Ad Creative Test",
+    "description": "Testing different ad creatives for Facebook campaign to improve click-through rates",
+    "type": "ad_creative",
+    "status": "completed",
+    "targetUrl": "facebook-ad-campaign-q1",
+    "conversionGoal": "click",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-05T08:30:00Z",
+    "updatedAt": "2024-01-18T17:20:00Z",
+    "startedAt": "2024-01-08T08:00:00Z",
+    "completedAt": "2024-01-18T17:20:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Standard product image with basic copy",
+        "trafficSplit": 33,
+        "visitors": 8500,
+        "conversions": 425,
+        "revenue": 8500
+      },
+      {
+        "id": "variant_1",
+        "name": "Video Creative",
+        "description": "Short product demo video with motion graphics",
+        "trafficSplit": 33,
+        "visitors": 8400,
+        "conversions": 588,
+        "revenue": 11760
+      },
+      {
+        "id": "variant_2",
+        "name": "User Generated Content",
+        "description": "Customer testimonial with product in use",
+        "trafficSplit": 34,
+        "visitors": 8600,
+        "conversions": 516,
+        "revenue": 10320
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "name": "Checkout Page Layout Optimization",
+    "description": "Testing single-page vs multi-step checkout to reduce cart abandonment",
+    "type": "landing_page",
+    "status": "running",
+    "targetUrl": "https://example.com/checkout",
+    "conversionGoal": "purchase",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-25T13:45:00Z",
+    "updatedAt": "2024-01-26T11:20:00Z",
+    "startedAt": "2024-01-26T11:20:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Single-page checkout with all fields visible",
+        "trafficSplit": 50,
+        "visitors": 756,
+        "conversions": 189,
+        "revenue": 18900
+      },
+      {
+        "id": "variant_1",
+        "name": "Multi-Step",
+        "description": "Three-step checkout process with progress indicator",
+        "trafficSplit": 50,
+        "visitors": 748,
+        "conversions": 209,
+        "revenue": 20900
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "name": "Pricing Page Value Proposition",
+    "description": "Testing different ways to present pricing plans and their benefits",
+    "type": "landing_page",
+    "status": "draft",
+    "targetUrl": "https://example.com/pricing",
+    "conversionGoal": "signup",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-28T16:10:00Z",
+    "updatedAt": "2024-01-28T16:10:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Standard pricing table with feature lists",
+        "trafficSplit": 50,
+        "visitors": 0,
+        "conversions": 0,
+        "revenue": 0
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "name": "Welcome Email Series",
+    "description": "Testing different onboarding email sequences for new subscribers",
+    "type": "email",
+    "status": "running",
+    "targetUrl": "email-onboarding-series",
+    "conversionGoal": "custom",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-20T10:15:00Z",
+    "updatedAt": "2024-01-24T14:30:00Z",
+    "startedAt": "2024-01-24T14:30:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "5-email series over 2 weeks with product features",
+        "trafficSplit": 50,
+        "visitors": 1250,
+        "conversions": 375,
+        "revenue": 7500
+      },
+      {
+        "id": "variant_1",
+        "name": "Value-First",
+        "description": "3-email series focused on immediate value and quick wins",
+        "trafficSplit": 50,
+        "visitors": 1275,
+        "conversions": 459,
+        "revenue": 9180
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "name": "Mobile App Download CTA",
+    "description": "Testing different mobile app download prompts on website",
+    "type": "cta_button",
+    "status": "completed",
+    "targetUrl": "https://example.com/mobile-app",
+    "conversionGoal": "download",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-12T12:00:00Z",
+    "updatedAt": "2024-01-22T15:45:00Z",
+    "startedAt": "2024-01-15T09:00:00Z",
+    "completedAt": "2024-01-22T15:45:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Standard 'Download App' button",
+        "trafficSplit": 50,
+        "visitors": 3200,
+        "conversions": 192,
+        "revenue": 9600
+      },
+      {
+        "id": "variant_1",
+        "name": "Benefit Focus",
+        "description": "'Get Mobile Access Now' with benefit icons",
+        "trafficSplit": 50,
+        "visitors": 3150,
+        "conversions": 236,
+        "revenue": 11800
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "name": "Blog Subscription Popup",
+    "description": "Testing exit-intent popup designs to increase blog subscriptions",
+    "type": "landing_page",
+    "status": "paused",
+    "targetUrl": "https://example.com/blog/*",
+    "conversionGoal": "signup",
+    "trafficAllocation": 75,
+    "createdAt": "2024-01-14T11:30:00Z",
+    "updatedAt": "2024-01-26T08:20:00Z",
+    "startedAt": "2024-01-16T10:00:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Simple popup with email signup form",
+        "trafficSplit": 50,
+        "visitors": 2100,
+        "conversions": 126,
+        "revenue": 2520
+      },
+      {
+        "id": "variant_1",
+        "name": "Lead Magnet",
+        "description": "Popup offering free marketing guide as incentive",
+        "trafficSplit": 50,
+        "visitors": 2080,
+        "conversions": 187,
+        "revenue": 3740
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "name": "Free Trial CTA Text",
+    "description": "Testing different call-to-action text variations for free trial signup",
+    "type": "cta_button",
+    "status": "draft",
+    "targetUrl": "https://example.com/free-trial",
+    "conversionGoal": "signup",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-29T14:20:00Z",
+    "updatedAt": "2024-01-29T14:20:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "CTA Text: 'Start Free Trial'",
+        "trafficSplit": 50,
+        "visitors": 0,
+        "conversions": 0,
+        "revenue": 0
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "name": "Webinar Registration Headline",
+    "description": "Testing different headlines for webinar landing page to boost registrations",
+    "type": "headline",
+    "status": "completed",
+    "targetUrl": "https://example.com/webinar-registration",
+    "conversionGoal": "signup",
+    "trafficAllocation": 100,
+    "createdAt": "2024-01-08T15:10:00Z",
+    "updatedAt": "2024-01-19T12:30:00Z",
+    "startedAt": "2024-01-10T10:00:00Z",
+    "completedAt": "2024-01-19T12:30:00Z",
+    "variants": [
+      {
+        "id": "control",
+        "name": "Control",
+        "description": "Headline: 'Master Digital Marketing in 60 Minutes'",
+        "trafficSplit": 50,
+        "visitors": 1800,
+        "conversions": 270,
+        "revenue": 13500
+      },
+      {
+        "id": "variant_1",
+        "name": "Problem-Solution",
+        "description": "Headline: 'Struggling with Marketing ROI? This Changes Everything'",
+        "trafficSplit": 50,
+        "visitors": 1850,
+        "conversions": 333,
+        "revenue": 16650
+      }
+    ]
+  }
+]
