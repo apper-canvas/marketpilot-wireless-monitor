@@ -1,0 +1,182 @@
+[
+  {
+    "Id": 1,
+    "name": "Q1 Campaign Performance Review",
+    "template": "campaign_performance",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["impressions", "clicks", "conversions", "ctr", "roas"],
+    "schedule": "monthly",
+    "recipients": ["marketing@company.com", "ceo@company.com"]
+  },
+  {
+    "Id": 2,
+    "name": "Weekly ROI Analysis Dashboard",
+    "template": "roi_analysis",
+    "dateRange": {
+      "start": "2024-03-01",
+      "end": "2024-03-07"
+    },
+    "metrics": ["revenue", "spend", "roas", "profit_margin"],
+    "schedule": "weekly",
+    "recipients": ["finance@company.com", "marketing@company.com"]
+  },
+  {
+    "Id": 3,
+    "name": "Customer Audience Insights Report",
+    "template": "audience_insights",
+    "dateRange": {
+      "start": "2024-02-01",
+      "end": "2024-02-29"
+    },
+    "metrics": ["demographics", "interests", "behaviors", "device_usage"],
+    "schedule": "monthly",
+    "recipients": ["research@company.com", "product@company.com"]
+  },
+  {
+    "Id": 4,
+    "name": "Competitive Landscape Analysis",
+    "template": "competitive_analysis",
+    "dateRange": {
+      "start": "2024-01-15",
+      "end": "2024-03-15"
+    },
+    "metrics": ["market_share", "competitor_spend", "brand_mentions", "sov"],
+    "schedule": "manual",
+    "recipients": ["strategy@company.com", "cmo@company.com"]
+  },
+  {
+    "Id": 5,
+    "name": "March Executive Summary",
+    "template": "executive_dashboard",
+    "dateRange": {
+      "start": "2024-03-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["revenue", "growth_rate", "customer_acquisition", "ltv"],
+    "schedule": "monthly",
+    "recipients": ["board@company.com", "executives@company.com"]
+  },
+  {
+    "Id": 6,
+    "name": "Daily Performance Pulse",
+    "template": "campaign_performance",
+    "dateRange": {
+      "start": "2024-03-20",
+      "end": "2024-03-20"
+    },
+    "metrics": ["impressions", "clicks", "spend", "cpc"],
+    "schedule": "daily",
+    "recipients": ["performance@company.com"]
+  },
+  {
+    "Id": 7,
+    "name": "Social Media ROI Deep Dive",
+    "template": "roi_analysis",
+    "dateRange": {
+      "start": "2024-02-01",
+      "end": "2024-02-29"
+    },
+    "metrics": ["social_revenue", "engagement_rate", "social_roas", "follower_growth"],
+    "schedule": "manual",
+    "recipients": ["social@company.com", "marketing@company.com"]
+  },
+  {
+    "Id": 8,
+    "name": "Gen Z Audience Behavior Study",
+    "template": "audience_insights",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["age_groups", "platform_preferences", "content_engagement", "purchase_patterns"],
+    "schedule": "manual",
+    "recipients": ["research@company.com", "creative@company.com"]
+  },
+  {
+    "Id": 9,
+    "name": "Monthly Competitor Tracking",
+    "template": "competitive_analysis",
+    "dateRange": {
+      "start": "2024-03-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["competitor_ads", "pricing_analysis", "feature_comparison", "market_positioning"],
+    "schedule": "monthly",
+    "recipients": ["intelligence@company.com", "product@company.com"]
+  },
+  {
+    "Id": 10,
+    "name": "Q1 Business Review Summary",
+    "template": "monthly_summary",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["total_revenue", "customer_count", "churn_rate", "satisfaction_score"],
+    "schedule": "manual",
+    "recipients": ["leadership@company.com", "investors@company.com"]
+  },
+  {
+    "Id": 11,
+    "name": "Email Campaign Performance Weekly",
+    "template": "campaign_performance",
+    "dateRange": {
+      "start": "2024-03-18",
+      "end": "2024-03-24"
+    },
+    "metrics": ["open_rate", "click_rate", "bounce_rate", "unsubscribe_rate"],
+    "schedule": "weekly",
+    "recipients": ["email@company.com", "marketing@company.com"]
+  },
+  {
+    "Id": 12,
+    "name": "Mobile App User Insights",
+    "template": "audience_insights",
+    "dateRange": {
+      "start": "2024-02-15",
+      "end": "2024-03-15"
+    },
+    "metrics": ["app_usage", "user_journey", "retention_rate", "in_app_purchases"],
+    "schedule": "monthly",
+    "recipients": ["mobile@company.com", "product@company.com"]
+  },
+  {
+    "Id": 13,
+    "name": "PPC Campaign ROI Analysis",
+    "template": "roi_analysis",
+    "dateRange": {
+      "start": "2024-03-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["ppc_spend", "ppc_revenue", "cost_per_acquisition", "keyword_performance"],
+    "schedule": "monthly",
+    "recipients": ["ppc@company.com", "performance@company.com"]
+  },
+  {
+    "Id": 14,
+    "name": "Industry Benchmark Comparison",
+    "template": "competitive_analysis",
+    "dateRange": {
+      "start": "2024-01-01",
+      "end": "2024-03-31"
+    },
+    "metrics": ["industry_ctr", "industry_cpc", "benchmark_roas", "category_trends"],
+    "schedule": "manual",
+    "recipients": ["strategy@company.com", "research@company.com"]
+  },
+  {
+    "Id": 15,
+    "name": "Executive Dashboard - Weekly KPIs",
+    "template": "executive_dashboard",
+    "dateRange": {
+      "start": "2024-03-18",
+      "end": "2024-03-24"
+    },
+    "metrics": ["weekly_revenue", "lead_generation", "pipeline_health", "team_performance"],
+    "schedule": "weekly",
+    "recipients": ["executives@company.com", "management@company.com"]
+  }
+]
