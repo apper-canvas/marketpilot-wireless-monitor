@@ -1,0 +1,267 @@
+[
+  {
+    "Id": 1,
+    "brief": "Create compelling ad copy for a new fitness app targeting busy professionals",
+    "type": "ad_copy",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "Transform your busy schedule into your fitness advantage. Our app delivers personalized 15-minute workouts that fit seamlessly into your professional life. Download now and discover how top executives stay in peak condition.",
+        "metrics": {
+          "wordCount": 32,
+          "readabilityScore": 85
+        }
+      },
+      {
+        "content": "Stop letting your career compromise your health. Join thousands of professionals who've discovered the power of micro-workouts. Our AI-powered app creates custom fitness routines that work around your meetings, not against them.",
+        "metrics": {
+          "wordCount": 34,
+          "readabilityScore": 82
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "published",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-15T14:22:00Z"
+  },
+  {
+    "Id": 2,
+    "brief": "Social media post announcing our new eco-friendly product line launch",
+    "type": "social_post",
+    "tone": "inspirational",
+    "generatedContent": [
+      {
+        "content": "🌱 Every small choice creates ripples of change. Today, we're proud to launch our 100% sustainable product line – because your values shouldn't compromise on quality. Together, we're not just making purchases, we're making a statement. #SustainableLiving #EcoFriendly #MakeADifference",
+        "metrics": {
+          "wordCount": 42,
+          "characterCount": 267,
+          "hashtagCount": 3
+        }
+      },
+      {
+        "content": "The future is green, and it starts with conscious choices today. 🌍 Introducing our revolutionary eco-friendly collection – where innovation meets sustainability. Join the movement toward a better tomorrow, one product at a time. #GreenLiving #Innovation #FutureReady",
+        "metrics": {
+          "wordCount": 38,
+          "characterCount": 251,
+          "hashtagCount": 3
+        }
+      }
+    ],
+    "selectedVersion": 1,
+    "status": "draft",
+    "createdAt": "2024-01-14T09:15:00Z",
+    "updatedAt": "2024-01-14T16:45:00Z"
+  },
+  {
+    "Id": 3,
+    "brief": "Email campaign for abandoned cart recovery with urgency",
+    "type": "email",
+    "tone": "urgent",
+    "generatedContent": [
+      {
+        "content": "Subject: Your cart expires in 2 hours – Don't miss out!\n\nHi [Name],\n\nYour selected items are still waiting, but not for much longer. Your cart will expire in just 2 hours, and we can't guarantee these products will still be available.\n\nYour items:\n• [Product 1] – Limited stock\n• [Product 2] – 20% off today only\n\nComplete your purchase now to secure these deals.\n\n[COMPLETE PURCHASE] \n\nDon't let this opportunity slip away.\n\nBest regards,\nThe [Company] Team",
+        "metrics": {
+          "openRate": 28.5,
+          "clickRate": 12.3
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "scheduled",
+    "createdAt": "2024-01-13T11:20:00Z",
+    "updatedAt": "2024-01-13T15:30:00Z"
+  },
+  {
+    "Id": 4,
+    "brief": "Landing page copy for AI-powered marketing platform targeting SMBs",
+    "type": "landing_page",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "# Supercharge Your Marketing with AI Intelligence\n\n## Stop guessing. Start knowing.\n\nEvery day you spend on manual marketing tasks is a day your competitors get ahead. Our AI-powered platform transforms how small and medium businesses approach marketing – delivering enterprise-level insights at a fraction of the cost.\n\n### What makes us different?\n\n✓ **Smart Automation**: Set up campaigns in minutes, not hours\n✓ **Predictive Analytics**: Know what works before you spend\n✓ **Real-time Optimization**: Your campaigns get smarter every day\n✓ **Affordable Pricing**: Enterprise features without enterprise costs\n\n### Ready to transform your marketing?\n\nJoin 2,500+ businesses already using our platform to increase their ROI by an average of 340%.\n\n[Start Free Trial] [Watch Demo]\n\n*No credit card required. Cancel anytime.*",
+        "metrics": {
+          "conversionRate": 8.7,
+          "bounceRate": 32.1
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "published",
+    "createdAt": "2024-01-12T08:45:00Z",
+    "updatedAt": "2024-01-12T17:20:00Z"
+  },
+  {
+    "Id": 5,
+    "brief": "Blog post introduction about remote work productivity tips",
+    "type": "blog_post",
+    "tone": "casual",
+    "generatedContent": [
+      {
+        "content": "# The Remote Work Revolution: 7 Game-Changing Productivity Hacks\n\nLet's be honest – working from home isn't always the paradise we imagined. Between the endless Zoom calls, kitchen distractions, and that pile of laundry giving you the stink eye, staying productive can feel like an uphill battle.\n\nBut here's the thing: some of the most successful remote workers aren't necessarily the most disciplined. They're just better at working *with* their environment instead of against it.\n\nAfter interviewing 50+ remote professionals and testing countless productivity methods, I've discovered the strategies that actually move the needle. No complicated systems, no expensive apps – just practical, human approaches that work in the real world.\n\nReady to transform your home office game? Let's dive in.",
+        "metrics": {
+          "readTime": "8 min",
+          "wordCount": 134
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "published",
+    "createdAt": "2024-01-11T14:10:00Z",
+    "updatedAt": "2024-01-11T19:55:00Z"
+  },
+  {
+    "Id": 6,
+    "brief": "Humorous social media post about Monday morning coffee",
+    "type": "social_post",
+    "tone": "humorous",
+    "generatedContent": [
+      {
+        "content": "Monday morning checklist:\n☐ Eyes open (sort of)\n☐ Find coffee\n☑️ Realize coffee is life\n☐ Pretend to be a functional human\n☐ Accept that Wednesday is still light-years away\n\nHow's your Monday going? ☕😴 #MondayMood #CoffeeFirst #AdultingIsHard",
+        "metrics": {
+          "engagementRate": 15.2,
+          "shareRate": 8.4
+        }
+      },
+      {
+        "content": "Me: 'I should probably go to bed earlier'\nAlso me at 11 PM: 'Let me just check one more thing...'\n*3 hours later*\nMonday morning me: 'Why do I do this to myself?' ☕💀\n\nWho else is powered by coffee and regret today? #MondayStruggles #CoffeeLife",
+        "metrics": {
+          "engagementRate": 18.7,
+          "shareRate": 11.2
+        }
+      }
+    ],
+    "selectedVersion": 1,
+    "status": "draft",
+    "createdAt": "2024-01-16T07:30:00Z",
+    "updatedAt": "2024-01-16T07:45:00Z"
+  },
+  {
+    "Id": 7,
+    "brief": "Professional email for client onboarding process",
+    "type": "email",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "Subject: Welcome to [Company] – Your Success Journey Begins Now\n\nDear [Client Name],\n\nWelcome to the [Company] family! We're thrilled to partner with you on this exciting journey.\n\nTo ensure a smooth start, I've outlined your onboarding process:\n\n**Week 1: Foundation**\n• Initial strategy consultation (scheduled for [Date])\n• Account setup and platform access\n• Team introductions and contact information\n\n**Week 2: Implementation**\n• Custom solution configuration\n• Training sessions for your team\n• Initial performance benchmarks\n\n**Ongoing: Success & Growth**\n• Regular check-ins and optimization\n• Monthly performance reports\n• 24/7 support access\n\nYour dedicated success manager, [Name], will be in touch within 24 hours to schedule your first consultation.\n\nQuestions? Don't hesitate to reach out.\n\nBest regards,\n[Your Name]\n[Title]\n[Company]",
+        "metrics": {
+          "openRate": 94.2,
+          "responseRate": 67.8
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "template",
+    "createdAt": "2024-01-10T13:25:00Z",
+    "updatedAt": "2024-01-15T10:15:00Z"
+  },
+  {
+    "Id": 8,
+    "brief": "Ad copy for luxury watch collection targeting high-income individuals",
+    "type": "ad_copy",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "Time doesn't wait. Neither should you.\n\nIntroducing the Heritage Collection – where Swiss precision meets modern sophistication. Each timepiece is meticulously crafted by master artisans, featuring movements that will outlast generations.\n\nThis isn't just a watch. It's a legacy.\n\nExplore the collection that defines excellence.\n[Shop Heritage Collection]",
+        "metrics": {
+          "ctr": 4.2,
+          "conversionRate": 2.8
+        }
+      },
+      {
+        "content": "Success leaves traces. Make yours timeless.\n\nEvery achievement deserves to be marked by something extraordinary. The Heritage Collection represents more than luxury – it embodies the relentless pursuit of perfection that drives everything you do.\n\nOwn your moment.\n[Discover Heritage]",
+        "metrics": {
+          "ctr": 3.8,
+          "conversionRate": 3.1
+        }
+      }
+    ],
+    "selectedVersion": 1,
+    "status": "published",
+    "createdAt": "2024-01-09T16:40:00Z",
+    "updatedAt": "2024-01-14T12:30:00Z"
+  },
+  {
+    "Id": 9,
+    "brief": "Landing page copy for SaaS project management tool",
+    "type": "landing_page",
+    "tone": "casual",
+    "generatedContent": [
+      {
+        "content": "# Finally, project management that doesn't suck\n\n## Your team's productivity just got an upgrade\n\nTired of juggling seventeen different tools just to know who's doing what? We get it. That's why we built something different – project management that actually makes sense.\n\n### Here's what makes us awesome:\n\n🚀 **Setup in 5 minutes**: Seriously, we timed it\n📊 **Visual progress tracking**: See exactly where everything stands\n🤝 **Team collaboration**: No more endless email chains\n📱 **Works everywhere**: Desktop, mobile, tablet – we've got you covered\n💪 **Scales with you**: From solo projects to enterprise teams\n\n### Ready to ditch the chaos?\n\nOver 10,000 teams have already made the switch. Your turn?\n\n[Try it free for 14 days] [See how it works]\n\n*No strings attached. Cancel anytime.*\n\n---\n\n*\"We went from spending 30% of our time managing projects to actually working on them. Game changer.\"*  \n— Sarah K., Marketing Director",
+        "metrics": {
+          "conversionRate": 12.4,
+          "timeOnPage": "2:34"
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "draft",
+    "createdAt": "2024-01-08T09:50:00Z",
+    "updatedAt": "2024-01-16T14:20:00Z"
+  },
+  {
+    "Id": 10,
+    "brief": "Inspirational blog post about overcoming entrepreneurial challenges",
+    "type": "blog_post",
+    "tone": "inspirational",
+    "generatedContent": [
+      {
+        "content": "# The Entrepreneur's Phoenix: Rising from Every Setback Stronger\n\nEvery entrepreneur knows the feeling. That moment when everything you've built seems to crumble, when the voices of doubt grow louder than your dreams, when giving up feels like the only rational choice.\n\nI've been there. Three failed startups, $50,000 in debt, sleeping on a friend's couch at 32. The world was telling me to get a \"real job\" and forget these crazy dreams of building something meaningful.\n\nBut here's what I learned in those dark moments: failure isn't the opposite of success – it's the raw material of it.\n\nEvery setback carries within it the seeds of comeback. Every closed door teaches you which ones to push harder. Every \"no\" gets you closer to the \"yes\" that changes everything.\n\nThe entrepreneurs who make it aren't the ones who never fall. They're the ones who fall forward, who treat every stumble as data, who understand that the path to extraordinary runs directly through the heart of ordinary struggles.\n\nYour current challenge isn't your final chapter. It's just the plot twist that makes your success story worth telling.",
+        "metrics": {
+          "readTime": "3 min",
+          "shareRate": 24.6
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "published",
+    "createdAt": "2024-01-07T12:15:00Z",
+    "updatedAt": "2024-01-07T18:40:00Z"
+  },
+  {
+    "Id": 11,
+    "brief": "Urgent email for limited-time product sale",
+    "type": "email",
+    "tone": "urgent",
+    "generatedContent": [
+      {
+        "content": "Subject: 48 Hours Left – 50% Off Everything!\n\n[Name], this is it.\n\nOur biggest sale of the year ends in exactly 48 hours, and I don't want you to miss out on savings this massive.\n\n🔥 50% off EVERYTHING\n🔥 No minimums, no exclusions\n🔥 Free shipping on all orders\n\nBut here's the thing – once this timer hits zero, these prices are gone for good. No extensions, no second chances.\n\nRight now, hundreds of customers are taking advantage of these deals. Don't be the one who waits until tomorrow and finds their cart empty.\n\n⏰ Time remaining: 47 hours, 23 minutes\n\n[SHOP NOW – 50% OFF]\n\nDon't wait. These deals won't.\n\nLast chance,\n[Your Name]",
+        "metrics": {
+          "urgencyScore": 9.2,
+          "clickRate": 18.7
+        }
+      }
+    ],
+    "selectedVersion": 0,
+    "status": "sent",
+    "createdAt": "2024-01-16T05:00:00Z",
+    "updatedAt": "2024-01-16T05:00:00Z"
+  },
+  {
+    "Id": 12,
+    "brief": "Social media post about team achievement and company culture",
+    "type": "social_post",
+    "tone": "professional",
+    "generatedContent": [
+      {
+        "content": "Celebrating our incredible team today! 🎉\n\nThis month, our development squad shipped 15 new features, reduced load times by 40%, and maintained 99.9% uptime – all while mentoring 3 new junior developers.\n\nBut what I'm most proud of? They did it with the same collaborative spirit and attention to quality that defines who we are.\n\nGreat companies aren't built on talent alone. They're built on talented people who genuinely care about each other's success.\n\n#TeamWork #CompanyCulture #TechLeadership #ProudCEO",
+        "metrics": {
+          "professionalEngagement": 89.3,
+          "shareRate": 12.1
+        }
+      },
+      {
+        "content": "Behind every breakthrough is a team that believes in something bigger than individual success. 💪\n\nThis quarter, our team didn't just hit their targets – they redefined what's possible. Record-breaking performance, innovative solutions, and a culture that makes coming to work feel like a privilege.\n\nWhen you invest in people, they invest back in the mission.\n\n#Leadership #TeamSuccess #Innovation #GratefulFounder",
+        "metrics": {
+          "professionalEngagement": 92.7,
+          "shareRate": 15.8
+        }
+      }
+    ],
+    "selectedVersion": 1,
+    "status": "published",
+    "createdAt": "2024-01-05T16:30:00Z",
+    "updatedAt": "2024-01-05T17:45:00Z"
+  }
+]
